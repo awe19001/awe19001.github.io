@@ -1,7 +1,19 @@
 @media only screen and (min-width: 32.5em) {
-    .Img {
-        float: right;
-        /* margin: -55px 10px;  */
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(2) {
+        display: block;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    main section img {
+        width: 100%;
+        height: auto;
     }
 
 }
