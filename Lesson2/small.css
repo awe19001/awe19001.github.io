@@ -12,8 +12,15 @@ main {
 }
 h2 {
     color: #edf1f5;
- 
-}
+    font-size: 18px;
+    font-family:'Baloo Bhai', cursive;
+ }
+
+ h3 {
+    color: #edf1f5;
+    font-size: 14px;
+    font-family:'Fredoka One', cursive;
+ }
    
 
 section:nth-child(3) {
