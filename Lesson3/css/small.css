@@ -1,7 +1,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
 
 /*header rules*/
-header {
+header, footer {
 	background-color: #0b8cf5;
 	padding: 10px;
 }
@@ -15,7 +15,7 @@ header img {
 header h1, header h2 {
 	color: #ffffff;
 	margin: 0;
-	font-family: font-family: 'Fredoka One', cursive;
+	font-family:'Merriweather', serif;
 }
 
 header h1 {
@@ -24,7 +24,12 @@ header h1 {
 
 header h2 {
 	font-size: 1.5rem;
+}
 
+h4 {
+	font-size: 1rem;
+	text-align: center;
+	color: white;
 }
 
 
@@ -41,26 +46,25 @@ nav ul {
 
 nav ul li a {
 	display: block;
-	color: rgb(56, 247, 113);
+	color: rgb(17, 128, 218);
 	padding: .5rem 0;
-	font-family: 'Passion One', cursive;
+	font-family: 'Merriweather', serif;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: .9rem;
 	text-align: center;
 }
 
+nav ul li a:hover {
+	background-color: #15d5f7;
+	color: rgb(236, 14, 136);
+}
 nav ul li a:link {
-	color: #aee052;
+	color: #eb3922;
 }
 
 nav ul li a:visited {
-	color: #e6872e;
-}
-
-nav ul li a:hover {
-	background-color: #15d5f7;
-	color: rgb(236, 14, 14);
+	color: #2e40e6;
 }
 
 nav ul li.active a {
@@ -79,7 +83,7 @@ main {
 }
 
 h1, h2 {
-	font-family: font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 
 p {
 	font-family: 'Merriweather', serif;
@@ -94,11 +98,8 @@ main li {
 	font-weight: bold;
 }
 
-#lrglogo {
+.domainpic {
 	width: 200px;
-}
-#csimg {
-	width: 75%;
 }
 
 /*footer rules*/
