@@ -1,6 +1,6 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
 
-/*header rules*/
+/*header */
 header, footer {
 	background-color: #0b8cf5;
 	padding: 10px;
@@ -46,7 +46,7 @@ nav ul {
 
 nav ul li a {
 	display: block;
-	color: rgb(17, 128, 218);
+	color: rgb(5, 11, 15);
 	padding: .5rem 0;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
@@ -64,7 +64,7 @@ nav ul li a:link {
 }
 
 nav ul li a:visited {
-	color: #2e40e6;
+	color: #010314;
 }
 
 nav ul li.active a {
@@ -75,23 +75,25 @@ nav ul li.active a {
 
 
 
-/*main rules*/
+/*main*/
 
 main {
 	padding: 0 2%;
 	min-height: 10rem;
 }
+a {
+	font-family: 'Merriweather', serif;
+}
 
 h1, h2 {
 	font-family: 'Poppins', sans-serif;
+
 
 p {
 	font-family: 'Merriweather', serif;
 }
 
-a {
-	font-family: 'Merriweather', serif;
-}
+
 
 main li {
 	font-family: 'Merriweather', serif;
@@ -102,7 +104,7 @@ main li {
 	width: 15%;
 }
 
-/*footer rules*/
+/*footer*/
 footer {
 	background-color: #ab141a;
 	padding: .5rem 2%;
@@ -115,7 +117,7 @@ footer {
  }
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
+
 .above:after {
   content: "";
   display: table;
