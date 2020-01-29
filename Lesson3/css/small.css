@@ -105,6 +105,7 @@ main a{
 }
 .left-td {
     font-size: 16px;
+    font-weight: bold;
     font-family: 'Merriweather', serif;
     width: 35%;
     text-align: left;
