@@ -1,8 +1,8 @@
 *  { margin: 0; box-sizing: border-box; }
 body {
     font-size: 16px;
-    font-family: 'Merriweather', serif;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
     font-weight: 300;
 	margin-left: auto; 
     margin-right: auto;
@@ -13,10 +13,6 @@ body {
 		nav ul { display: flex; }
         nav ul li { flex: 1 1 100%; }
 }
-.logo {
-	float: left;
-
-	}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -25,43 +21,49 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: black;
-	font-family:'Poppins', sans-serif;
+	color: #0B8066;
+	font-family: 'Yeseva One', cursive;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color:  yellow;
-    color: red;
+	background-color: #0B8066;
+    color: #E5E9Ea;
     border-radius:10px;
 }
 #footer {
     padding: 0.75em;
     font-size: 1em;
     text-align: center;
-    color:  yellow;
+    color: #E5E9Ea;
+}
+#lastMod {
+    padding: 0.75em;
+    font-size: 1em;
+    text-align: center;
+    color: #5caed0;   
 }
 header, footer{
     margin: 1.25rem auto;
     padding:1rem;
     text-align: center;
-    background-color:  black;
-    color:  yellow;
+    background-color: #0B8066;
+    color: #E5E9EA;
 }
 header h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Yeseva One', cursive;
     font-size:1.5rem;
     font-weight: bold;
-    color: yellow;
+    color: #5caed0;
     text-shadow: 2px 2px black;
 }
 header h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Yeseva One', cursive;
     font-size:1.5rem;
     font-weight: bold;
-    color: white;
+    color: #E5E9EA;
 }
 main {
     font-size: 0.8rem;
@@ -73,9 +75,9 @@ main {
 #menu {
     margin: 0.5rem;
     padding: 0 1rem;
-    background-color: blue;
+    background-color: #E5E9Ea;
     font-size: 2rem;
-    color: blue;
+    color: #0B8066;
     text-align:center;
 	margin-left: auto; 
     margin-right: auto;
@@ -85,14 +87,14 @@ main {
 main section{
     margin: 0.5rem;
     padding: 0 1rem;
-    background-color: white;
+    background-color: #EEEEEE;
     text-align:justify;
 	border-radius:10px;
 	border: 1px solid #BBBBBB;
 }
 main h2{
     font-size:1.5rem;
-    color: yellowgreen;
+    color: #0B8066;
     margin-top:20px;
 }
 main h3{
@@ -101,7 +103,7 @@ main h3{
     margin: 30px 0;
 }
 main a{
-    color:rgb(70, 65, 65);
+    color:rgb(68, 65, 65);
 }
 
 #black_color {
@@ -143,7 +145,7 @@ main a{
 }
 .left-td {
     font-size: 16px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     width: 35%;
     text-align: left;
     padding-left: 15px;
@@ -152,7 +154,7 @@ main a{
   
   .right-td {
     font-size: 16px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     padding-left: 15px;
   }
 main section picture img{
@@ -170,7 +172,7 @@ section p {
     padding:20px;
 }
 section h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Yeseva One', cursive;
     font-size:1.5rem;
     font-weight: bold;
     color: #5caed0;
