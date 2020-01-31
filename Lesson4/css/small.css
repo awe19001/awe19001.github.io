@@ -13,14 +13,7 @@ body {
 		nav ul { display: flex; }
         nav ul li { flex: 1 1 100%; }
 }
-.logo {
-	float: left;
-
-    }
-nav {
-    background-color: #ccc;
-    border-radius: 10px;
-}    
+  
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -88,6 +81,41 @@ header h3 {
     font-size:1.5rem;
     font-weight: bold;
     color: white;
+}
+header {
+    background-color: black;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+headings {
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+     float: left;
+}
+
+.m{
+    letter-spacing: 1pt;
+    font-size: .9rem;
+    margin-left: 20px;
+    font-style: italic;
+    color: yellow;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
 }
 main {
     font-size: 0.8rem;
@@ -173,7 +201,39 @@ section h3 {
     color: black;
     font-style: italic;
 }
+.navigation{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li{
+    display: none;
+}
 
+.navigation li:first-child {
+    display: block;
+}
+nav {
+    background-color: #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+  }  
+.navigation a:hover {
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.responsive li {
+    display: block;
+}
 
 footer {
     font-size: 1.0rem;

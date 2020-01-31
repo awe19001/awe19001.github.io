@@ -17,21 +17,23 @@
 
 <body>
     <header>
-        <img class="logo" src="G:\BYU-I Winter 2020\CS230\awe19001\awe19001.github.io\Lesson4\img\cloudgreen.png" alt="cloudimage" width="80">
+        <picture><img src="G:\BYU-I Winter 2020\CS230\awe19001\awe19001.github.io\Lesson4\img\cloudgreen.png" alt="cloudimage" width="80"></picture>
+        <section class=headings>
         <h1> Climate Site </h1> 
-        <h2> What is the advantage of knowing the climate's pattern today?</h2>
+        <div class="m"> Want to know Climate's forecast today?</div>
+        </section> 
     </header>
   
 
     <nav>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="soda.html">Soda Springs</a></li>
-            <li><a href="fish.html">Fish Haven</a></li>
-            <li><a href="storm.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
 
@@ -50,7 +52,6 @@
             <p>Last updated <span id="lastDate">1/17/2020</span> <span id="lastTime">20:57:30</span></p>
         </div>
     </footer>
-       
        <script src="js/toggle.js"></script>
 </body>
 </html>

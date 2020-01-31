@@ -1,6 +1,12 @@
+const hambutton = document.querySelector(".ham");
+hambutton.addEventListener("click", toggleMenu, false);
+
+
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide")
+    document.querySelector(".navigation").classList.toggle("responsive");
 }
+
+
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const d = new Date()
