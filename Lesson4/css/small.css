@@ -1,3 +1,10 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 
 body {
     font-size: 16px;
@@ -7,67 +14,6 @@ body {
 	margin-left: auto; 
     margin-right: auto;
     max-width:900px;
-}
-@media only screen and (min-width: 37.5em) {
-	/* Horizontal Flex Menu */
-		nav ul { display: flex; }
-        nav ul li { flex: 1 1 100%; }
-}
-  
-nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #555;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-    overflow: hidden;
-}
-
-nav ul li a {
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: #000;
-    border-top: 1px solid rgba(0,0,0,0.3) ;
-}
-
-nav li a {
-	display: block;
-	color: black;
-	font-family:'Poppins', sans-serif;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
-nav ul li.active a {
-    background-color: aqua;
-    border-radius: 10px;
-}
-
-nav ul li a:hover {
-	background-color: yellow;
-    color: red;
-    border-radius: 10px;
-}
-#footer {
-    padding: 0.75em;
-    font-size: 1em;
-    text-align: center;
-    color:  yellow;
-}
-header, footer{
-    margin: 1.25rem auto;
-    padding:1rem;
-    text-align: center;
-    background-color:  black;
-    color:  yellow;
 }
 header h1 {
     font-family: 'Merriweather', serif;
@@ -82,26 +28,27 @@ header h3 {
     font-weight: bold;
     color: white;
 }
-header {
-    background-color: black;
-    padding: 5px 0;
+header, footer{
+    padding:5px 0;;
+    text-align: center;
+    background-color:  black;
+    color:  yellow;
+    font-size: 1em;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-headings {
+   justify-content: center;
+ }
+.headings{
     display: flex;
     flex-direction: column;
 }
+header img {
+    width: 70px;
+    height: auto;
+}
+
 .logo{
      float: left;
 }
-
 .m{
     letter-spacing: 1pt;
     font-size: .9rem;
@@ -109,97 +56,7 @@ headings {
     font-style: italic;
     color: yellow;
 }
-.headings h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
-}
-.headings {
-    display: flex;
-    flex-direction: column;
-}
-main {
-    font-size: 0.8rem;
-	max-width:900px;
-    margin:0 auto;
-    font-size: 0.8rem;
-    grid-template-columns: 1fr;
-}
-#menu {
-    margin: 0.5rem;
-    padding: 0 1rem;
-    font-size: 2rem;
-    color: blue;
-    text-align:center;
-	margin-left: auto; 
-    margin-right: auto;
-    border-radius:10px;
-	border: 1px solid #BBBBBB;
-}
-main section{
-    margin: 0.5rem;
-    padding: 0 1rem;
-    background-color: white;
-    text-align: left;
-    border-radius:10px;
-	border: 1px solid #BBBBBB;
-}
-main h2{
-    font-size:1.5rem;
-    color: black;
-    margin-top:20px;
-}
-main h3{
-    font-size:1rem;
-    font-weight: 300;
-    margin: 30px 0;
-}
-main a{
-    color:rgb(70, 65, 65);
-}
-.left-td {
-    font-size: 16px;
-    font-family: 'Merriweather', serif;
-    width: 35%;
-    text-align: left;
-    padding-left: 15px;
-    vertical-align: text-top;
-  }
-  
-  .right-td {
-    font-size: 16px;
-    font-family: 'Merriweather', serif;
-    padding-left: 15px;
-  }
-main section picture img{
-    width:150px;
-    height: auto;
-    box-shadow:0px 0px 15px;
-    border:1px solid #000;
-}
-main p{
-    font-size:1rem;
-    text-align: left;
-    }
-section p {
-    font-weight:500;
-    padding:20px;
-}
-section h3 {
-    font-family: 'Merriweather', serif;
-    font-size:1.5rem;
-    font-weight: bold;
-    color: #5caed0;
-}
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed black;
-    padding: 15px;
-    background-color: white;
-    color: black;
-    font-style: italic;
-}
 .navigation{
     list-style: none;
     text-align: center;
@@ -208,15 +65,9 @@ section h3 {
 .navigation li{
     display: none;
 }
-
 .navigation li:first-child {
     display: block;
 }
-nav {
-    background-color: #ccc;
-    border-radius: 10px;
-    margin: 0 auto;
-  }  
 .navigation a:hover {
     background-color: yellow;
     color: red;
@@ -234,10 +85,59 @@ nav {
     display: block;
 }
 
-footer {
-    font-size: 1.0rem;
-    line-height: 1.5;
+nav {
+    background-color: #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+  } 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
 }
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3) ;
+}
+nav li a {
+	display: block;
+	color: black;
+	font-family:'Poppins', sans-serif;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav ul li.active a {
+    background-color: aqua;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+	background-color: yellow;
+    color: red;
+    border-radius: 10px;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+
+main h2{
+    font-size:1.5rem;
+    color: black;
+    margin-top:20px;
+}
+
 footer a{
     color: #E5E9Ea;
 }
@@ -248,3 +148,6 @@ footer a{
     display: table;
     clear: both;
 }
+
+
+ 
