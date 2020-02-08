@@ -11,8 +11,9 @@ body {
     font-family: 'Merriweather', serif;
     color: black;
     font-weight: 300;
-	margin: 0;
-    max-width:900px;
+    margin: 0 auto;
+    padding: 5px;
+    max-width:640px;
 }
 header h1 {
     font-family: 'Merriweather', serif;
@@ -27,15 +28,17 @@ header h3 {
     font-weight: bold;
     color: white;
 }
-header, footer{
-    padding:5px 0;;
+header, footer {
+    padding:5px 0;
     text-align: center;
     background-color:  black;
     color:  yellow;
     font-size: 1em;
     display: flex;
-   justify-content: center;
+    justify-content: center;
  }
+
+
 .headings{
     display: flex;
     flex-direction: column;
@@ -138,7 +141,7 @@ main h2{
     font-size:1.5rem;
     color: black;
     margin-top:20px;
-}
+    }
 
 footer a{
     color: #E5E9Ea;
@@ -154,6 +157,21 @@ footer a{
 main {max-width:820px;margin:0 auto;}
 h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 
+.announce {
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    background-color: gold;
+    color: #000;
+    margin: auto;
+    font-weight: bolder;
+    display: none;
+    text-align: center;
+    padding: .5px;
+}
+#announcement, #donotAnnounce {
+    display: none;
+}
 
 .herodiv {
     position: relative;
@@ -179,16 +197,18 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     box-shadow:  0 0 30px #777;
     opacity: .8;
 }
-h1, h2 {
+h2 {
     margin: 0;
+    text-align: center;
+
 }
 p{
-    text-align: left;
+    text-align: center;
 }
 .flex {
     display: flex;
     flex-direction: row;
-}
+  }
 .col{
     flex: 1 1 100%;
     border-top: 1px solid #333;
