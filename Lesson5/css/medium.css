@@ -138,14 +138,46 @@
     footer a{
         color: #E5E9Ea;
     }
-    
-    /*Clearfix: Force an Element not to collapse*/
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
+    .weathersummary {
+        width: 150px; 
+        font-size: 12px;
+        padding: 1rem;
+        top: 25px;
+        left: 25px;
     }
+    .getNotice {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .five{
+        display: block;
+        margin-bottom: 30px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map-image {
+        display: block;
+        float: left;
+        width: 400px;
+        padding: 15px;
     }
     
-    
-     
+    .contactinfo {
+        height: 430px;
+    }
+    .articlecontent {
+        margin: inherit;
+        border: 1px dashed black;
+        padding: 15px;
+        background-color: #ccc;
+        color: black;
+        max-width: 100%;
+        overflow:auto;
+        font-size: 1.1rem;
+      }
+    .articlecontent img {
+        width: 300px;
+        float: right;
+        padding: 15px;
+    }  }

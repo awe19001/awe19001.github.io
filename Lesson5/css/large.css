@@ -182,10 +182,12 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     position: absolute;
     background: radial-gradient(orange, yellow);
     border: .5px solid violet;
-    padding: .5rem;
+    padding: 1.5rem;
     box-shadow:  0 0 30px #777;
     opacity: .8;
-}
+    width: 210px; 
+    font-size: 14px;
+    }
 h2 {
     margin: 0;
     text-align: center;
