@@ -177,6 +177,12 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     max-width: 100%;
     border: 1px dashed black;
 }
+.herodiv img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    width: 800px;
+}
 .hero-ph {
     margin: 10px;
     background-color: gray;
@@ -193,6 +199,10 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     opacity: .8;
 }
 h2 {
+    margin: 0;
+    text-align: center;
+}
+h3 {
     margin: 0;
     text-align: center;
 }
