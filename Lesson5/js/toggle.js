@@ -8,26 +8,6 @@ function toggleMenu() {
 
 
 
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-const d = new Date()
-const dayName = days[d.getDay()]
-const day = new Date().getDate()
 
 
-const mlist = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-const m = new Date()
-const monthName = mlist[m.getMonth()]
 
-const year = new Date().getFullYear()
-
-
-document.getElementById("lastDate").textContent = `${dayName}, ${day} ${monthName} ${year}`;
-
-function showThis() {
-    let today = new Date().getDay()
-    if (today == 5) {
-        document.getElementById("getNotice").style.display = "block";
-    } else {
-        document.getElementById("getNotice").style.display = "none";
-    };
-}
