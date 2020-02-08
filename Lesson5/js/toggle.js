@@ -23,6 +23,4 @@ const year = new Date().getFullYear()
 
 document.getElementById("lastDate").textContent = `${dayName}, ${day} ${monthName} ${year}`;
 
-$('#donotAnnounce').show();
-
-$('#announcement').show();
+$('#donotAnnounce').show();else$('#announcement').show();
