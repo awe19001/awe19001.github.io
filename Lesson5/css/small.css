@@ -169,6 +169,9 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     text-align: center;
     padding: .5px;
 }
+.show {
+    display: block;
+}
 .herodiv {
     position: relative;
     margin: 10px auto;
@@ -275,6 +278,7 @@ p.article {
     overflow:auto;
     text-align: left;
 }
+
 
 
 

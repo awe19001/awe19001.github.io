@@ -1,7 +1,8 @@
-  
-    let today = new Date().getDay()
-    if (today == Friday) {
-        document.getElementById("getNotice").style.display = "block";
-    } else {
-        document.getElementById("getNotice").style.display = "none";
-    };
+function getNotice(){
+    const date = new Date();
+    const dayOfWeek = date.getDay();
+    if (dayOfWeek === 5)
+    {
+      document.querySelector(".getNotice").classList.toggle("show");
+    }
+  }
