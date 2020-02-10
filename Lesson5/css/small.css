@@ -247,7 +247,7 @@ p{
   }
 .articlecontent img {
     border-style: none;
-    float: right;
+    display: block;
     padding: 1px;
     margin: 10px;
 } 
