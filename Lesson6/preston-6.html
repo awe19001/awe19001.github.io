@@ -23,10 +23,11 @@
      "9:00 a.m. Saturday at the city park pavilion."</p>
    </div> 
 
-    <header>
-        <picture>
-        <img src="image/cloudgreen.png" alt="cloudsun image">
-        </picture>
+    <header class="clearfix">
+        <figure class="logo">
+        <img src="image/cloudgreen.png" alt="cloudsun image"
+        srcset="image/logo1.png 1x, image/logo2.png 2x, image/logo3.png 3x">
+        </figure>
         <section class=headings>
             <h1> Climate Site </h1> 
             <div class="m">Want to know Climate's forecast today?</div>
@@ -47,9 +48,11 @@
 
    <main>
     <h2>The Town of Preston</h2>
-    <div class="herodiv">
-        <img src="image/cit230_large600.jpeg" width="800" height="300" alt="womanwithumbrella">
-        <div class="hero-ph">
+       <figure class="myphoto">
+        <img src="image/cit230_large800.jpeg" alt="thenature"
+        srcset="image/cit230_small400.jpeg 1x, image/cit230_medium600.jpeg 2x, image/cit230_large800.jpeg 3x 
+        ">
+       </figure>
         <section class="weathersummary"> 
             <h2>Weather Summary</h2>
             <p>Precipitation: <span id="prec"> 30%</span></p> 
@@ -57,7 +60,7 @@
             <p>Wind: <span id="wind"> 11km/h</span></p>
         </section>
         </div>
-    </div>
+    
 
     <div class="five">
     <h2>5 Days Forecast</h2>
