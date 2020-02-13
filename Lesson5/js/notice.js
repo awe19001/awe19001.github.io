@@ -41,4 +41,3 @@ if (day == 5) {
 } else {
   document.getElementsByClassName("getNotice")[0].style.display = "none";
 }
-}
