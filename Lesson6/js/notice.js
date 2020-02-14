@@ -36,7 +36,9 @@ let months = [
 let actualDate = days[day] + ", " + dayMonth + " " + months[month] + " " + year;
 document.getElementById('lastDate').textContent = actualDate;
 
-if (day == 5) {
+
+
+if (day == 4) {
   document.getElementsByClassName("getNotice")[0].style.display = "block";
 } else {
   document.getElementsByClassName("getNotice")[0].style.display = "none";
