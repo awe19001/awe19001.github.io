@@ -8,7 +8,7 @@ const buwan = ["January", "February", "March", "April", "May", "June", "July", "
 const m = new Date()
 const monthName = buwan[m.getMonth()]
 
-const tuig = new Date().getFullYear()
+const tuigg = new Date().getFullYear()
 
 
-document.getElementById("lastDate").textContent = `${dayName}, ${karon} ${monthName} ${tuig}`;
+document.getElementById("lastDate").textContent = `${dayName}, ${karon} ${monthName} ${tuigg}`;
