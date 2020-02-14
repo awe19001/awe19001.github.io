@@ -1,14 +1,14 @@
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const adlaw = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const d = new Date()
-const dayName = days[d.getDay()]
-const day = new Date().getDate()
+const dayName = adlaw[d.getDay()]
+const karon = new Date().getDate()
 
 
-const mlist = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+const buwan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 const m = new Date()
-const monthName = mlist[m.getMonth()]
+const monthName = buwan[m.getMonth()]
 
-const year = new Date().getFullYear()
+const tuig = new Date().getFullYear()
 
 
-document.getElementById("lastDate").textContent = `${dayName}, ${day} ${monthName} ${year}`;
+document.getElementById("lastDate").textContent = `${dayName}, ${karon} ${monthName} ${tuig}`;
