@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem) {
 
-  
+ 
     header h1 {
         font-family: 'Merriweather', serif;
         font-size:1.5rem;
@@ -130,11 +130,6 @@
     footer a{
         color: #E5E9Ea;
     }
-    /*----------MAIN---------*/
-    main figure.myphoto{
-    width: 80%;
-    }
-
     .weathersummary {
         width: 150px; 
         font-size: 12px;
