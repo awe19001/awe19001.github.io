@@ -1,6 +1,6 @@
 function toggleMenu() {
-    document.getElementsByClassName("menubar")[0].classList.toggle("hide");
-    let menuText = document.getElementsByClassName("menuText")[0]
+    document.getElementsByClassName("navigation")[0].classList.toggle("hide");
+    let menuText = document.getElementsByClassName("menuNav")[0]
     if (menuText.innerHTML == "☰ Menu") {
         menuText.innerHTML = "X";
     } else {
