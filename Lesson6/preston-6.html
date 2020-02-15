@@ -34,21 +34,27 @@
     </header>
 
     <nav class="clearfix">
-        <ul class="navigation hide">
-           <li class="menu"><a class="menuNav" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li ><a href="preston-5.html">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
-            <li><a href="">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+        <ul class="navigation">
+            <li class="ham"><a href="#" >&#9776; Menu </a></li>
+                 <li ><a href="preston-5.html">Home</a></li>
+                 <li class="active"><a href="#">Preston</a></li>
+                 <li><a href="">Soda Springs</a></li>
+                 <li><a href="#">Fish Haven</a></li>
+                 <li><a href="#">Storm Center</a></li>
+                 <li><a href="#">Gallery</a></li>
+             </ul>
     </nav>
 
    <main>
     <h2>The Town of Preston</h2>
     <div class="herodiv">
-        <img src="images/jere.jpg" alt="womanwithumbrella">
+        <picture>
+            <source media="(max-width: 200px)" srcset="images/cit230_small400.jpeg"/> 
+            <source media="(max-width: 37.5em)" srcset="images/cit230__medium600.jpeg"/> 
+            <source media="(max-width: 60em)" srcset="images/cit230_large800.jpeg"/> 
+            <img class="photo" src="images/cit230_orig.jpeg" alt="image of Preston Idaho">
+        </picture>
+
         <div class="hero-ph">
         <section class="weathersummary"> 
             <h2>Weather Summary</h2>
@@ -136,9 +142,9 @@
             <p>Current Date: <span id="lastDate">1/17/2020</span> <span id="lastTime">20:57:30</span></p>
         </div>
     </footer>
-       <script src="/Lesson5/js/notice.js"></script>
-       <script src="/Lesson5/js/toggle.js"></script>
-       {% comment %} <script src="js/lastDate.js"></script> {% endcomment %}
+       <script src="/lesson6/js/notice.js"></script>
+       <script src="/lesson6/js/toggle.js"></script>
+       <script src="/lesson6/js/lastDate.js"></script>
        
 </body>
 </html>

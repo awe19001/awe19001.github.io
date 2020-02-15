@@ -70,7 +70,7 @@
         color: black;
     }
     .responsive li {
-        display: block;
+        border-top-style: none;
     }
     
     nav {

@@ -71,6 +71,9 @@ header img {
     text-decoration: none;
     color: black;
 }
+.responsive li {
+    border-top-style: none;
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
