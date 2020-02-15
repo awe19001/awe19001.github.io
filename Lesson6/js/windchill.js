@@ -1,19 +1,18 @@
-function windchill () {
-    var temp = parseFloat (document.getElementById('temp').value);
-    var windSpeed = parseFloat (document.getElementById('windSpeed').value);
-    //windChill();
-    var itsCold = windChill(temp,windSpeed)
-    
-    var div = document.getElementById ('output');
-        div.innerHTML = itsCold;
+function getWindChill()
+{
+    var temp = parseFloat(document.getElementById('temp').innerHTML);
+    var windspeed = parseFloat(document.getElementById('windspeed').innerHTML);
+    var windchill = document.getElementById('windchill');
+
+    if (temp > 50 || windspeed < 3) {
+        windchill.innerHTML = "N/A";
+    }else{
+        calculateWindchill(temp,windspeed);
     }
-    
-    function windChill (t,v) {
-    
-    var itFeelsLike = 35.74 + 0.6215 * t -35.75* a + .4275 * t * a;
-    var a = Math.pow(v,.16);
-       
-    return itFeelslike;
-    
-    }
-    
+}
+
+function calculateWindchill(temp,windspeed)
+{
+    var result = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windspeed,0.16)) + (0.4275 * temp * Math.pow(windspeed,0.16));
+    windchill.innerHTML = parseFloat(result.toFixed(2));
+}
