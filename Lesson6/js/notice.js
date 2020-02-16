@@ -1,5 +1,5 @@
 let lastModif = document.lastModified;
-document.getElementById('lastDate').innerHTML = lastModif;
+document.getElementById('currentdate').innerHTML = lastModif;
 
 function Menu() {
     document.getElementById("menu").classList.toggle("hide")
