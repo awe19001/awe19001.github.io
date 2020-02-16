@@ -1,3 +1,5 @@
+
+
 let lastModif = document.lastModified;
 document.getElementById('currentdate').innerHTML = lastModif;
 
