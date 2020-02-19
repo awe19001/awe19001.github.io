@@ -1,5 +1,5 @@
-#gallery {
-    display: flex;
+h1 {
+    text-align: center;
 }
 .sulod {
     background-color: white;
@@ -10,7 +10,6 @@
 #gallery img {
     width: 60%;
     height: 400px;
-    align-items: center;
     border: 1px solid #333;
     padding: 2px;
     filter: blur(0em);
