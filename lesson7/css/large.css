@@ -264,6 +264,6 @@ p.article {
     gap: 1%;
     margin-bottom: 100px;
 }
-.galleryphoto:hover {
+.gallery-photo:hover {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3), rgba(0,0,0,1) ;
 }
