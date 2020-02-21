@@ -172,4 +172,9 @@
         width: 300px;
         float: right;
         padding: 15px;
-    }  }
+    } 
+    .gallery {
+        grid-template-columns: repeat(2, 350px);
+        justify-self: center;
+    }
+ }
