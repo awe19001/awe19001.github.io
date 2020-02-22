@@ -76,8 +76,6 @@
         margin: 10px auto 40px auto;
     }
     .container {
-        display:grid; 
-        grid-gap: 15px;
         grid-template-columns: repeat(2, 350px);
         justify-self: center;       
     }

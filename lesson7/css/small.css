@@ -87,12 +87,24 @@ header img {
 .responsive li {
     display: block;
 }
-
+body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container {
     margin: 0 auto;
     display:grid; 
     grid-gap: 20px;
     grid-template-columns: 350px;       
+}
+.title {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+}
+.gallery-photo img[data-src]{
+    filter: blur(0.2em);
 }
 .gallery-photo {
     text-align: center;
@@ -112,6 +124,7 @@ header img {
     width: 100%;
     height: 400px;
  }
+
 nav {
     background-color: #ccc;
     border-radius: 10px;

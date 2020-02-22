@@ -83,7 +83,7 @@ header img {
 .container {
     grid-template-columns: repeat(3, 350px);       
 }
-}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -267,5 +267,5 @@ p.article {
     max-width: 100%;
     overflow:auto;
     text-align: left;
-}
+}}
 
