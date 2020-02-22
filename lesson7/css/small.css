@@ -295,30 +295,33 @@ p{
     margin-bottom: 250px;
 }
 
-section h1 {
+.titulo {
     color: black;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
 }
-
-#gallery img {
-    object-fit: cover;
+.gallery-grid img[data-src] {
+    filter: blur(0.2em);
+}
+.gallery-grid img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     border: 1px solid #333;
     padding: 2px;
     filter: blur(0em);
     transition: filter 0.5s;
 }
-
-.gallery-photo {
-    box-shadow: 0 4px 8px 0 rgba(66, 66, 26, 0.096); 
-}
-
 .sulod {
     background-color: white;
     padding: 2%;
     color: black;
     text-align: center;
 }
+
+
+
+
 
 
 
