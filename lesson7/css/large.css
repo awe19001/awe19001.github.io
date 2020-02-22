@@ -74,6 +74,16 @@ header img {
 .responsive li {
     border-top-style: none;
 }
+.gallery-photo:hover {
+    box-shadow: 0 0 50px #333;
+}
+.gallery-photo img {
+    width: 100%;
+}
+.container {
+    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));       
+}
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -262,10 +272,3 @@ p.article {
     text-align: left;
 }
 
-.gallery {
-    grid-template-columns: repeat(3, 350px);
-}
-
-.gallery-grid:hover {
-    opacity: .5;
-}
