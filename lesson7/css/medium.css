@@ -78,7 +78,8 @@
     .container {
         display:grid; 
         grid-gap: 15px;
-        grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));       
+        grid-template-columns: repeat(2, 350px);
+        justify-self: center;       
     }
     .gallery-photo img {
         width: 300px;
