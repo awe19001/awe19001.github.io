@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <title>Progressive Loading of Images</title>
+     <meta name="description" content="Climate Site Plan Progressive Loading of Images in Gallery for CIT 230">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Joeverlyn Awe">
+     <link rel="shortcut icon" href="favicon.ico">
+     <link href=" https://fonts.googleapis.com/css?family=Merriweather%7cPoppins&display=swap" rel="stylesheet">
+     <link href="lazysmall.css" rel="stylesheet">
+     
+
+</head>
+
+<body>   
+   <main>
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+          <img src="images/placeholder-300x400.png" data-src="images/aron.jpg" alt="1">
+        </picture>
+        <picture>
+          <img src="images/placeholder-300x400.png" data-src="images/jameson.jpg" alt="2">
+        </picture>
+        <picture>
+          <img src="images/placeholder-300x400.png" data-src="images/jan.jpg" alt="3">
+        </picture>     
+        <picture>
+          <img src="images/placeholder-300x400.png" data-src="images/nagy.jpg" alt="4">
+        </picture> 
+        <picture>
+          <img src="images/placeholder-300x400.png" data-src="images/natalie.jpg" alt="5">
+        </picture>
+  </main>      
+       
+    
+    <footer>
+        <div id="footer">
+            <p>© 2020 | Joeverlyn Capute Awe | Cebu, Philippines | <a href="https://www.byui.edu/online">BYUI Online learning</a></p>
+            <p>Current Date: <span id="currentdate"></span> 
+             </p>
+        </div>
+    </footer>
+    
+       <script src="js/currentdate.js"></script>
+       <script src="imagehandling.js"></script>
+       
+</body>
+</html>
