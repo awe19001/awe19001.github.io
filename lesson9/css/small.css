@@ -239,7 +239,9 @@ form fieldset{
     border-radius: 10px;
     padding: .5rem 2%;
 }
-
+legend{
+    font-size: 1.3rem;
+}
 form legend{
     color: rgb(36, 31, 31);
     margin: 0 1rem;
@@ -248,7 +250,7 @@ form legend{
 
 form label.top, form div{
     display: block;
-    padding-top: 1 rem;
+    padding-top: 1rem;
     color: #9c2c13;
     font-size: 1rem;
 }
@@ -291,16 +293,15 @@ form label.top input:required:valid {
     border-radius: 4px;
     margin-top: 15px;
     display: block;
-    width: 100%;
     min-width: 295px;
     max-width: 90%;
     min-height: 125px;
 }
 
-#stormseverity {
+#stormseverity-value {
     max-width: 20rem;
     text-align: center;
-    padding: 0;
+    padding: .2rem;
     margin-top: -15px;
 }
 
