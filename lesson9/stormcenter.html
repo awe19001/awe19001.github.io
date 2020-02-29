@@ -63,13 +63,29 @@
                     <fieldset>
                         <legend>Storm Information</legend>
                         <label class="top"> Storm Date <input type="date" name="stormDate"></label>
-                        <label class="top"> Storm Type</label>
-                        <label class="sbs"><input type="radio" name="stormtype" value="flash"> Flash Flood</label>
-                        <label class="sbs"><input type="radio" name="stormtype" value="hail"> Hail</label>
-                        <label class="sbs"><input type="radio" name="stormtype" value="hurricane"> Hurricane</label>
-                        <label class="sbs"><input type="radio" name="stormtype" value="thunder"> Thunderstorm</label>
-                        <label class="sbs"><input type="radio" name="stormtype" value="tornado"> Tornado</label>
-                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Storm Type <em>(Select all that apply)</em></legend>
+                        <div class="selection">
+                        <label for="coding"><input type="checkbox" id="flash" name="interest" value="flash" checked> Flash Flood</label>
+                        </div>
+                        <div class="selection">
+                        <label for="music"><input type="checkbox" id="hail" name="interest" value="hail"> Hail</label>
+                        </div>
+                        <div class="selection">
+                        <label for="football"><input type="checkbox" id="hurricane" name="interest" value="hurricane"> Hurricane</label>
+                        </div>
+                        <div class="selection">
+                        <label for="gardening"><input type="checkbox" id="thunder" name="interest" value="thunder"> Thunderstorm</label>
+                        </div>
+                        <div class="selection">
+                        <label for="gardening"><input type="checkbox" id="tornado" name="interest" value="tornado"> Tornado</label>
+                        </div>
+                    </fieldset>
+                     
+
+
                         <label class="top"> Storm Region
                             <select name="subject">
                                 <option value="">Select Region... &#9662;</option>
@@ -103,7 +119,7 @@
                             </label>
         
                             <label class="top">How Many Authors <input type="number" name="authors"></label>
-                      </fieldset>
+                     
                         <input type="submit" value="Propose My Course" class="submitBtn">
                 </form>
                 
@@ -113,7 +129,12 @@
 
 
 
-
+                <label class="sbs"><input type="radio" name="stormtype" value="flash"> Flash Flood</label>
+                <label class="sbs"><input type="radio" name="stormtype" value="hail"> Hail</label>
+                <label class="sbs"><input type="radio" name="stormtype" value="hurricane"> Hurricane</label>
+                <label class="sbs"><input type="radio" name="stormtype" value="thunder"> Thunderstorm</label>
+                <label class="sbs"><input type="radio" name="stormtype" value="tornado"> Tornado</label>
+                
 
 
     
