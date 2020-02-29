@@ -213,8 +213,8 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
 }
+
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 

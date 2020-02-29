@@ -40,7 +40,7 @@
                  <li><a href="preston-6.html">Preston</a></li>
                  <li><a href="#">Soda Springs</a></li>
                  <li><a href="#">Fish Haven</a></li>
-                 <li class="active"><a href="#">Storm Center</a></li>
+                 <li class="active"><a href="/lesson9/stormcenter.html">Storm Center</a></li>
                  <li><a href="lesson7/gallery-7.html">Gallery</a></li>
              </ul>
     </nav>
@@ -49,32 +49,43 @@
                      
         <!-- CONTENT HERE -->
         <main>
-            <h1>Course Proposal Application</h1>
+            <h1>Storm Center Page</h1>
                 <form method="get" action="thanks.html">
                     <fieldset>
-                        <legend>Applicant Information</legend>
+                        <legend>Information</legend>
                         <label class="top">First Name* <input type="text" name="fname" required></label>
                         <label class="top">Last Name* <input type="text" name="lname" required></label>
-                        <label class="top">Phone <input type="tel" name="phone" placeholder="1234555555"></label>
                         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
-                      </fieldset>
+                        <label class="top">Phone <input type="tel" name="phone" placeholder="1234555555"></label>
+                        <label class="top">Zip Code <input type="number" name="zip" required></label>
+                    </fieldset>
         
-                      <fieldset>
-                        <legend>Course Information</legend>
-                        <div>Audience</div>
-                        <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-                        <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-                        <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-        
+                    <fieldset>
+                        <legend>Storm Information</legend>
+                        <label class="top"> Storm Date <input type="date" name="stormDate"></label>
+                        <label class="top"> Storm Type</label>
+                        <label class="sbs"><input type="radio" name="stormtype" value="flash"> Flash Flood</label>
+                        <label class="sbs"><input type="radio" name="stormtype" value="hail"> Hail</label>
+                        <label class="sbs"><input type="radio" name="stormtype" value="hurricane"> Hurricane</label>
+                        <label class="sbs"><input type="radio" name="stormtype" value="thunder"> Thunderstorm</label>
+                        <label class="sbs"><input type="radio" name="stormtype" value="tornado"> Tornado</label>
+                        
+                        <label class="top"> Storm Region
+                            <select name="subject">
+                                <option value="">Select Region... &#9662;</option>
+                                <option value="preston"> Preston</option>
+                                <option value="soda"> Soda Springs</option>
+                                <option value="haven"> Fish Haven</option>
+                            </select>  
+                        
                         <div>Software Needed</div>
                         <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
                         <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
                         <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
                         <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
-                      </fieldset>
+                    </fieldset>
         
-                      <fieldset>
+                    <fieldset>
                          <legend>Funding</legend>
                             <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
                             <label class="top">Course Subject
