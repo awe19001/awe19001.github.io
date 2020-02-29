@@ -73,10 +73,10 @@
                              </datalist>  
                         </label>
 
-                        <label class="top" for="storm-severity">Storm Severity
-                            <input type="range" id="storm-severity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <label class="top" for="stormseverity">Storm Severity
+                            <input type="range" id="stormseverity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         </label>
-                        <div id="storm-value">5</div>
+                        <div id="stormseverity">5</div>
                 
                         <datalist id="tickmarks">
                             <option value="1">
@@ -109,12 +109,12 @@
         
                     <fieldset>
                         <legend><span>Additional Information or Comments</span></legend>  
-                        <label class="top" for="comments">
+                        <label class="top" for="additionalcomments">
                             Please enter any additional information or comments below
-                            <textarea id="comments" name="comments"></textarea>
+                            <textarea id="additionalcomments" name="comments"></textarea>
                         </label>
                     </fieldset>
-                    <input type="submit" value="Report Storm Event" class="submit-btn">
+                    <input type="submit" value="Report Storm Event" class="submitBtn">
             </form>
                 
      </main>      

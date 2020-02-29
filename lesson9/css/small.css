@@ -206,8 +206,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
-}
+    font-family: 'Poppins', sans-serif;
+  }
 
 
 /*----------- HEADER --------------*/
@@ -221,7 +221,9 @@ header h2 {margin: 0; font-weight: normal;}
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
-    min-height: 20rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*------------FORM-----------------*/
@@ -233,13 +235,13 @@ main {
 }
 form fieldset{
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid gray;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend{
-    color: #445ba9;
+    color: rgb(36, 31, 31);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -248,10 +250,9 @@ form label.top, form div{
     display: block;
     padding-top: 1 rem;
     color: #9c2c13;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 form label.top input, form label.top select{
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -265,11 +266,11 @@ form label.top input, form label.top select{
 
 form label.sbs{
     display: block;
-    padding: .75rem 0;
+    padding: .35rem 0;
     color: #555;
 }
 
-form input.submitBtn{
+form input.submit{
     border: none;
     background-color: #9c2c13;
     color: white;
@@ -286,22 +287,25 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left:green solid 6px;
 }
+#additionalcomments {
+    border-radius: 4px;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    min-width: 295px;
+    max-width: 90%;
+    min-height: 125px;
+}
 
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
+#stormseverity {
+    max-width: 20rem;
     text-align: center;
+    padding: 0;
+    margin-top: -15px;
 }
 
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 

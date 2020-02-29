@@ -1,3 +1,3 @@
 function adjustRating(rating) {
-    document.getElementById("storm-value").innerHTML = rating;
+    document.getElementById("stormseverity").innerHTML = rating;
 }
