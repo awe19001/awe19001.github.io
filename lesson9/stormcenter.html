@@ -51,94 +51,73 @@
         <main>
             <h1>Storm Center Page</h1>
                 <form method="get" action="thanks.html">
+                  
                     <fieldset>
                         <legend>Information</legend>
-                        <label class="top">First Name* <input type="text" name="fname" required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Full Name* <input type="text" size="20" name="fname" pattern="[A-Za-z\s]{5,}" required></label>
                         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="top">Phone <input type="tel" name="phone" placeholder="1234555555"></label>
-                        <label class="top">Zip Code <input type="number" name="zip" required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1234555555" required></label>
+                        <label class="top">Zip Code* <input type="number" name="zip" required></label>
                     </fieldset>
         
                     <fieldset>
                         <legend>Storm Information</legend>
-                        <label class="top"> Storm Date <input type="date" name="stormDate"></label>
-                    </fieldset>
+                        <label class="top">Storm Date <input type="date" name="stormDate"></label>
+                        <label class="top">Storm Type <input list="type" id="stormtype" name="typeofstorm">
+                             <datalist id="type">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                             </datalist>  
+                        </label>
 
-                    <fieldset>
-                        <legend>Storm Type <em>(Select all that apply)</em></legend>
-                        <div class="selection">
-                        <label for="coding"><input type="checkbox" id="flash" name="interest" value="flash" checked> Flash Flood</label>
-                        </div>
-                        <div class="selection">
-                        <label for="music"><input type="checkbox" id="hail" name="interest" value="hail"> Hail</label>
-                        </div>
-                        <div class="selection">
-                        <label for="football"><input type="checkbox" id="hurricane" name="interest" value="hurricane"> Hurricane</label>
-                        </div>
-                        <div class="selection">
-                        <label for="gardening"><input type="checkbox" id="thunder" name="interest" value="thunder"> Thunderstorm</label>
-                        </div>
-                        <div class="selection">
-                        <label for="gardening"><input type="checkbox" id="tornado" name="interest" value="tornado"> Tornado</label>
-                        </div>
-                    </fieldset>
-                     
+                        <label class="top" for="storm-severity">Storm Severity
+                            <input type="range" id="storm-severity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        </label>
+                        <div id="storm-value">5</div>
+                
+                        <datalist id="tickmarks">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist> 
 
 
                         <label class="top"> Storm Region
-                            <select name="subject">
-                                <option value="">Select Region... &#9662;</option>
-                                <option value="preston"> Preston</option>
-                                <option value="soda"> Soda Springs</option>
-                                <option value="haven"> Fish Haven</option>
-                            </select>  
+                            <select name="stormregion">
+                                <option value="none" selected disabled>Select Region...&#9662;</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda">Soda Springs</option>
+                                <option value="haven">Fish Haven</option>
+                            </select>
+                        </label>  
                         
-                        <div>Software Needed</div>
-                        <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-                        <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-                        <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-                        <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+                        <div>User in-danger level</div>
+                        <label class="sbs"><input type= "radio" name= "level-ofdanger" value= "yes"> Yes</label>
+                        <label class="sbs"><input type= "radio" name= "level-ofdanger" value= "maybe"> Maybe</label>
+                        <label class="sbs"><input type= "radio" name= "level-ofdanger" value= "no"> No</label>   
                     </fieldset>
         
                     <fieldset>
-                         <legend>Funding</legend>
-                            <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
-                            <label class="top">Course Subject
-                                <select name="subject">
-                                    <option value="">Please Select &#9662;</option>
-                                    <option value="software">Software Development</option>
-                                    <option value="creative">Creative Professional</option>
-                                    <option value="info">Information Technology</option>
-                                    <option value="data">Data Professional</option>
-                                    <option value="construction">Construction</option>
-                                    <option value="manufacturing">Manufacturing</option>
-                                    <option value="business">Business Professional</option>
-                                    <option value="security">Cyber Security</option>
-                                </select>
-                            </label>
-        
-                            <label class="top">How Many Authors <input type="number" name="authors"></label>
-                     
-                        <input type="submit" value="Propose My Course" class="submitBtn">
-                </form>
+                        <legend><span>Additional Information or Comments</span></legend>  
+                        <label class="top" for="comments">
+                            Please enter any additional information or comments below
+                            <textarea id="comments" name="comments"></textarea>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Report Storm Event" class="submit-btn">
+            </form>
                 
-          
-
-
-
-
-
-                <label class="sbs"><input type="radio" name="stormtype" value="flash"> Flash Flood</label>
-                <label class="sbs"><input type="radio" name="stormtype" value="hail"> Hail</label>
-                <label class="sbs"><input type="radio" name="stormtype" value="hurricane"> Hurricane</label>
-                <label class="sbs"><input type="radio" name="stormtype" value="thunder"> Thunderstorm</label>
-                <label class="sbs"><input type="radio" name="stormtype" value="tornado"> Tornado</label>
-                
-
-
-    
-       </main>      
+     </main>      
        
     
     <footer>
@@ -152,6 +131,7 @@
        <script src="js/toggle.js"></script>
        <script src="js/currentdate.js"></script>
        <script src="js/imagehandling.js"></script>
+       <script src="js/stormcenter.js"></script>
        
 </body>
 </html>
