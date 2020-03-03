@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    color: yellow;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+
+section {
+    padding: 1rem;
+    margin: .8rem;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    padding-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 400px) {
+    .cards {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cards {
+        grid-template-columns: repeat(4, 300px);
+    }
+}
+
