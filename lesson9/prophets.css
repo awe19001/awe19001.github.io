@@ -2,10 +2,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
 }
 
-h1, h2 {
+h1{
+    color: black;
+    text-align: center;
+} 
+
+h2 {
     color: yellow;
     text-align: center;
 }
@@ -19,7 +24,7 @@ h1, h2 {
 section {
     padding: 1rem;
     margin: .8rem;
-    background-color: black;
+    background-color: gray;
     text-align: center;
 }
 
