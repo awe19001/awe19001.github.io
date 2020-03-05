@@ -18,7 +18,7 @@ fetch(requestURL)
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
             div1.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            div1.textContent = 'Place of Birth: ' + prophets[i].birthplace;
+            div2.textContent = 'Place of Birth: ' + prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);
             image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order)
 
