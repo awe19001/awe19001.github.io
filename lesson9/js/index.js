@@ -17,8 +17,8 @@ fetch(requestURL)
    
             h2.textContent = towns[i].name + ' ' + towns[i].lastname;
 
-            div1.textContent = 'Name: ' + towns[i].name;
-            div2.textContent = 'Motto: ' + towns[i].motto;
+            div1.textContent = 'Date of Birth: ' + towns[i].birthdate;
+            div2.textContent = 'Place of Birth: ' + towns[i].birthplace;
             image.setAttribute('src', towns[i].imageurl);
             image.setAttribute('alt', towns[i].name + ' ' + towns[i].lastname + ' - ' + towns[i].order)
 
