@@ -12,7 +12,7 @@
 
 .cards section {
     text-align: center;
-    background-color: #ac4692;
+    background-color: #ee67aa;
     margin: .5rem;
     max-width: 600px;
 }
@@ -39,7 +39,7 @@ div.towninfo {
 }
 .wireframes {
     text-align: center;
-    background-color: rgb(243, 61, 161);
+    background-color: rgb(238, 175, 175);
     width: 200px;
     margin: 5px auto;
     border-radius: 7.5px;
