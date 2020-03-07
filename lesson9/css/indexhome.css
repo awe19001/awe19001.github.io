@@ -8,7 +8,6 @@
     text-align: center;
     justify-content: center;
     font-family: 'Merriweather', serif;
-    grid-template-columns: repeat(1, 300px);
 }
 
 .cards section {
