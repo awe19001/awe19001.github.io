@@ -25,14 +25,14 @@ fetch(requestURL)
             motto.textContent = towns[i].motto;
             motto.setAttribute('class', 'motto');
             yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-            yearFounded.setAttribute('class', 'towninfo');
+            yearFounded.setAttribute('class', 'lungsodinfo');
             currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
-            currentPopulation.setAttribute('class', 'towninfo');
+            currentPopulation.setAttribute('class', 'lungsodinfo');
             averageRainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
-            averageRainfall.setAttribute('class', 'towninfo');
+            averageRainfall.setAttribute('class', 'lungsodinfo');
             image.setAttribute('src', 'images/'+ towns[i].photo);
             image.setAttribute('alt', 'Photo of ' + towns[i].name);
-            sectioninfo.setAttribute('class', 'town-info-with-image')
+            sectioninfo.setAttribute('class', 'lungsodinfo-with-image')
           
             
             info.appendChild(yearFounded);
