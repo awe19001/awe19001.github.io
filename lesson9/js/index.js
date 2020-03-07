@@ -17,7 +17,7 @@ fetch(requestURL)
             let yearFounded = document.createElement('div');
             let currentPopulation = document.createElement('div');
             let averageRainfall = document.createElement('div');
-            let infowrapper = document.createElement('div');
+            let info = document.createElement('div');
             let sectioninfo = document.createElement('div');
             let image = document.createElement('img');
 
@@ -35,11 +35,11 @@ fetch(requestURL)
             sectioninfo.setAttribute('class', 'town-info-with-image')
           
             
-            infowrapper.appendChild(yearFounded);
-            infowrapper.appendChild(currentPopulation);
-            infowrapper.appendChild(averageRainfall);
+            info.appendChild(yearFounded);
+            info.appendChild(currentPopulation);
+            info.appendChild(averageRainfall);
             
-            sectioninfo.appendChild(infowrapper);
+            sectioninfo.appendChild(info);
             sectioninfo.appendChild(image);
 
             card.appendChild(h2);

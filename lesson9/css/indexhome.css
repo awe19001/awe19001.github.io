@@ -1,14 +1,14 @@
 
 
 .cards {
+    display: grid;
     font-size: 14px;
     padding: 10px;
-    display: grid;
     gap: 10px;
-    grid-template-columns: repeat(1, 300px);
     text-align: center;
     justify-content: center;
     font-family: 'Merriweather', serif;
+    grid-template-columns: repeat(1, 300px);
 }
 
 .cards section {
@@ -36,7 +36,7 @@ div.towninfo {
 }
 
 
-div .towninfo {
+div.towninfo {
     padding: 10px;
 }
 
@@ -63,9 +63,6 @@ div .towninfo {
     .town-info-with-image {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
     }
    
     div.section img{
@@ -73,12 +70,13 @@ div .towninfo {
         flex-wrap: wrap;
     }
 
-    section:nth-child(odd) {
+    section:nth-child(odd) .town-info-with-image {
         flex-direction: row-reverse;
     }
 
     section img {
         width: 250px;
+        height: 167px;
     }
     section h2 {
         font-size: 2rem;
@@ -98,12 +96,9 @@ div .towninfo {
     }
     .town-info-with-image {
         display: block;
-        align-items: center;
-        text-align: center;
     } 
     section img {
         width: 250px;
-        box-align: center;
     }
 }
 
