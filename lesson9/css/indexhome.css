@@ -1,0 +1,109 @@
+
+
+.cards {
+    font-size: 14px;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1, 300px);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+
+.cards section {
+    text-align: center;
+    background-color: #ac4692;
+    margin: .5rem;
+    max-width: 600px;
+}
+
+.cards section:hover {
+    box-shadow: 0 0 30px goldenrod;
+}
+
+div.motto {
+    font-size: 1.2rem;
+    font-style: italic;
+    height: 60px;
+}
+div.towninfo {
+    padding: 8px;
+}
+.cards img {
+    margin: 15px;
+    width: 200px;
+}
+
+
+div .towninfo {
+    padding: 10px;
+}
+
+@media only screen and (min-width:25em){
+    .cards {
+        grid-template-columns: repeat(1, 300px); 
+    }
+    div.motto {
+        margin-top: -10px;
+    }
+    section img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width:40em){
+    .cards {
+        font-size: 16px;
+        grid-template-columns: repeat(1, 360px); 
+    }
+    div.motto {
+        margin-top: -15px;
+    }
+    .town-info-with-image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+   
+    div.section img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    section img {
+        width: 250px;
+    }
+    section h2 {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+}
+
+@media only screen and (min-width:60em){
+    .cards {
+        grid-template-columns: repeat(3, 330px); 
+        padding: 20px;
+        gap: 15px;
+    }
+    div.motto {
+        margin-top: 5px;
+    }
+    .town-info-with-image {
+        display: block;
+        align-items: center;
+        text-align: center;
+    } 
+    section img {
+        width: 250px;
+        box-align: center;
+    }
+}
+

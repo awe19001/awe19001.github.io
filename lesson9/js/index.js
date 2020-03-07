@@ -1,5 +1,4 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-const pagetowns = ["Preston", "Fish Haven", "Soda Springs"];
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,18 +8,19 @@ fetch(requestURL)
     console.table(jsonObject); 
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
-        if (pagetowns.includes(towns[i].name))
-        {
+        if (towns[i].name == "Fish Haven" || 
+        towns[i].name == "Preston" || 
+        towns[i].name == "Soda Springs") {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let image = document.createElement('img');
             let motto = document.createElement('div');
             let yearFounded = document.createElement('div');
             let currentPopulation = document.createElement('div');
             let averageRainfall = document.createElement('div');
             let infowrapper = document.createElement('div');
             let sectioninfo = document.createElement('div');
-            
+            let image = document.createElement('img');
+
             h2.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
             motto.setAttribute('class', 'motto');
