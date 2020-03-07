@@ -34,9 +34,16 @@ div.towninfo {
     width: 200px;
 }
 
-
 div.towninfo {
     padding: 10px;
+}
+.wireframes {
+    text-align: center;
+    background-color: rgb(243, 61, 161);
+    width: 200px;
+    margin: 5px auto;
+    border-radius: 7.5px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (min-width:25em){
@@ -81,6 +88,8 @@ div.towninfo {
         font-size: 2rem;
         font-family: 'Poppins', sans-serif;
     }
+    .wireframes {
+        width: 600px;
     
 }
 
@@ -99,5 +108,8 @@ div.towninfo {
     section img {
         width: 250px;
     }
+    .wireframes {
+        width: 900px;
 }
-
+}
+}
