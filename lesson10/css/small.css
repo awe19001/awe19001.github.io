@@ -242,11 +242,11 @@ footer a{
     width: 100px;
 }
 .dayPangan {
-    color: whitesmoke;
-    background-color: gray;
+    color: black;
+    background-color: rgb(179, 174, 174);
     display: block;
     height: 35px;
-    width: auto;
+    width: auto; 
     font-size: 1rem;
     padding-top: 6px;
 }
