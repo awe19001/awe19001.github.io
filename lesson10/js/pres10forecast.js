@@ -9,9 +9,9 @@ fetch(eventsURL)
     for (let i = 0; i < towns.length; i++) {
         if (towns[i].name == "Preston") {
             let event = document.createElement('section');
-            for (let j = 0; j < towns[i].events.length; j++) {
-                let p = documnet.createElement('p');
-                p.textContent = towns[i].events[j];
+            for (let e = 0; e < towns[i].events.length; e++) {
+                let p = document.createElement('p');
+                p.textContent = towns[i].events[e];
                 event.appendChild(p);
             }
 
