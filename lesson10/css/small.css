@@ -211,7 +211,6 @@ footer a{
     border: .5px solid violet;
     box-shadow:  0 0 30px #777;
     opacity: .8;
-    display: relative;
 }
 .herodiv {
     margin: 10px auto;
