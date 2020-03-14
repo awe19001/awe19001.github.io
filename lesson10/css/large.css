@@ -200,7 +200,7 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 .five{
     display: block;
     margin-bottom: 30px;
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -231,7 +231,7 @@ p{
     display: flex;
     flex-direction: row;
   }
-.col{
+.flex{
     flex: 1 1 100%;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
