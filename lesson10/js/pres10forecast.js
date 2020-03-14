@@ -1,4 +1,4 @@
-const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const eventsURL = 'HTTPS://byui-cit230.github.io/weather/data/towndata.json';
 fetch(eventsURL)
   .then(function (response) {
     return response.json();
