@@ -15,8 +15,7 @@ fetch(eventsURL)
                 event.appendChild(p);
             }
 
-            document.querySelector('div.events').appendChild(event);
-            document.addEventListener('touchstart', onTouchStart, {passive: true});
+            document.querySelector('div.upcomingEvents').appendChild(event);
         }
     }
 });
