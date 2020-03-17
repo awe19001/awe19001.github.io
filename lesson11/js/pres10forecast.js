@@ -16,6 +16,7 @@ fetch(eventsURL)
             }
 
             document.querySelector('div.events').appendChild(event);
+            document.addEventListener('touchstart', onTouchStart, {passive: true});
         }
     }
 });
@@ -54,6 +55,7 @@ fetch(forecastURL)
         divDay.appendChild(spanTemp);
         
         document.getElementById('limaKaAdlaw').appendChild(divDay);
+        document.addEventListener('touchstart', onTouchStart, {passive: true});
     } 
 
   });
