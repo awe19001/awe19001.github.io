@@ -261,6 +261,10 @@ footer a{
 .contactinfo img {
     display: none;
 }
+.add-table {
+    display: block;
+    padding: 20px;
+}
 
 
 /*  ---STORM----*/

@@ -206,7 +206,7 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 }
 .contactinfo img {
     display: block;
-    float: left;
+    float: center;
     width: 300px;
     padding: 15px;
 }
@@ -214,6 +214,7 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 .add-table {
     display: block;
     padding: 20px;
+
 }
 
 h2 {

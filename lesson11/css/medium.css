@@ -172,7 +172,6 @@
         margin-right: auto;
     }
  
-
     .contactinfo img {
         display: none;
         float: left;
@@ -182,6 +181,11 @@
     
     .contactinfo {
         height: 430px;
+    }
+    
+    .add-table {
+        display: block;
+        padding: 20px;
     }
     .articlecontent {
         margin: inherit;
