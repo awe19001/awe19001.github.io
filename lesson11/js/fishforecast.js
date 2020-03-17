@@ -54,7 +54,6 @@ fetch(forecastURL)
         divDay.appendChild(spanTemp);
         
         document.getElementById('limaKaAdlaw').appendChild(divDay);
-        document.addEventListener('touchstart', onTouchStart, {passive: true});
-    } 
+        } 
 
   });
