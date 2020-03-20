@@ -220,7 +220,7 @@ footer a{
 .herodiv img {
     display: block;
     width: 90%;
-    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .flex {
@@ -263,7 +263,7 @@ footer a{
     font-size: 20px;
     padding: 1rem;
     border: 1px solid #000000;
-    background: radial-gradient(rgba(5, 199, 47, 0.253), yellow);
+    background: radial-gradient(rgba(5, 199, 47, 0.253), rgb(0, 255, 255));
  }
 
 .contactinfo img {
