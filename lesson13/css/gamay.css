@@ -42,14 +42,6 @@ footer {
     justify-content: center;
     flex: 1 0 15em;
  }
-.socialmedia{
-    padding: 15px;
-    box-shadow: 8px 8px 8px #01445;
-}
-.icon {
-    width: 60px; 
-    height: 60px;
-}
  .m{
     letter-spacing: 1pt;
     font-size: 2rem;
