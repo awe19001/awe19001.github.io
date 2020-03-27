@@ -36,14 +36,19 @@ p {
     padding: 10px;
 }
 footer {
-    padding:5px 0;
     text-align: center;
     background-color:  rgb(43, 110, 235);
     color:  rgb(243, 235, 235);
     justify-content: center;
+    flex: 1 0 15em;
  }
-footer a{
-    color: #E5E9Ea;
+.socialmedia{
+    padding: 15px;
+    box-shadow: 8px 8px 8px #01445;
+}
+.icon {
+    width: 60px; 
+    height: 60px;
 }
  .m{
     letter-spacing: 1pt;
