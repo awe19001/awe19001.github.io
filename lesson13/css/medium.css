@@ -1,0 +1,206 @@
+@media only screen and (min-width: 40em) {
+
+ 
+    header h1 {
+        font-family: 'Merriweather', serif;
+        font-size:1.5rem;
+        font-weight: bold;
+        color: yellow;
+        text-shadow: 2px 2px black;
+    }
+    header h3 {
+        font-family: 'Merriweather', serif;
+        font-size:1.5rem;
+        font-weight: bold;
+        color: white;
+    }
+    header, footer{
+        padding:5px 0;;
+        text-align: center;
+        background-color:  black;
+        color:  yellow;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+       }
+    .headings{
+        display: flex;
+        flex-direction: column;
+    }
+    header img {
+        width: 70px;
+        height: auto;
+    }
+    
+    .logo{
+         float: left;
+    }
+    .m{
+        letter-spacing: 1pt;
+        font-size: .9rem;
+        margin-left: 20px;
+        font-style: italic;
+        color: yellow;
+    }
+    
+    .navigation{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        display: flex;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation a:hover {
+        background-color: yellow;
+        color: red;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    .responsive li {
+        border-top-style: none;
+    }
+    .gallery-photo {
+        margin: 10px auto 40px auto;
+    }
+    .container {
+        grid-template-columns: repeat(2, 350px);
+        justify-self: center;       
+    }
+    .gallery-photo img {
+        width: 300px;
+    }
+    .gallery-photo p {
+        font-size: 16px;
+    }
+}
+    
+    nav {
+        background-color: #ccc;
+        border-radius: 10px;
+        margin: 0 auto;
+      } 
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      overflow: hidden;
+      }
+      
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #000;
+        border-top: 1px solid rgba(0,0,0,0.3) ;
+    }
+    nav li a {
+        display: block;
+        color: black;
+        font-family:'Poppins', sans-serif;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    nav ul li.active a {
+        background-color: aqua;
+        border-radius: 10px;
+    }
+    nav ul li a:hover {
+        background-color: yellow;
+        color: red;
+        border-radius: 10px;
+    }
+    
+    .contentbox {
+        display: block;
+        margin: 10px auto;
+        border: 1px dashed black;
+        padding: 15px;
+        background-color: white;
+        color: black;
+        font-style: italic;
+    }
+    
+    main h2{
+        font-size:1.5rem;
+        color: black;
+        margin-top:20px;
+    }
+    
+    footer a{
+        color: #E5E9Ea;
+    }
+    .weathersummary {
+        width: 150px; 
+        font-size: 12px;
+        padding: 1rem;
+        top: 25px;
+        left: 25px;
+        border: 1px solid #000000;
+        background: radial-gradient(orange, yellow);
+        border: .5px solid violet;
+        box-shadow:  0 0 30px #777;
+        opacity: .8;
+        position: absolute;
+        max-width: 100%;
+        overflow:auto;
+        margin: inherit;
+    }
+    .getNotice {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .five{
+        display: none;
+        margin-bottom: 30px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .contactinfo img {
+        display: none;
+        float: left;
+        width: 200px;
+        padding: 10px;
+    }
+    
+    .contactinfo {
+        height: 430px;
+    }
+    
+    .add-table {
+        display: block;
+        padding: 20px;
+    }
+    .articlecontent {
+        margin: inherit;
+        border: 1px dashed black;
+        padding: 15px;
+        background-color: #ccc;
+        color: black;
+        max-width: 100%;
+        overflow:auto;
+        font-size: 1.1rem;
+      }
+    .articlecontent img {
+        width: 300px;
+        float: right;
+        padding: 15px;
+    } 
+   
+ 
