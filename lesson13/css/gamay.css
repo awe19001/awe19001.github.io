@@ -61,26 +61,25 @@ footer a{
 }/*end of clearfix*/
 
 /*nav*/
-.navigation{
+nav{
     text-align: center;
     background-color:rgb(43, 110, 235);
     margin: 0 auto;
 }
-.navigation li:first-child {
+nav li:first-child {
     display: block;
 }
 .navigation li{
     display: none;
     flex: 1 1 100%;
 }
-.navigation ul li a {
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: white;
-    border-top: 1px solid rgba(0,0,0,0.3) ;
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
 }
-.navigation li a {
+nav li a {
 	display: block;
 	color: white;
 	font-family:'Poppins', sans-serif;
@@ -89,20 +88,13 @@ footer a{
 	text-decoration: none;
 	font-size: 0.95rem;
 }
-.navigation ul li.active a {
-    background-color: aqua;
-    border-radius: 10px;
+nav ul li.active a {
+    background-color: goldenrod;
 }
-.navigation ul li a:hover {
-    background-color: yellow;
-    color: red;
-    border-radius: 10px;
-    font-weight: 700;
-}
-.navigation a {
-    padding: 0.75rem;
-    text-align: center;
+nav ul li a:hover {
+    background-color: rgb(69, 221, 241);
     color: black;
+    font-weight: 700;
 }
 .responsive li {
     display: block;
@@ -225,18 +217,21 @@ p.articlecontent {
     flex: 1 0 15em;
     margin: .5em;
 }
+.rightwhite {
+    color: white;
+}
 .top-row, .middle-row {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
 }
 .middle-row {
     background-color:  rgb(43, 110, 235); ;
 }
 .img1, .img2 {
     width: 400px;
-    padding: 10px;
+    padding: 5px;
     float: center;
 }/*end of activities*/
