@@ -173,6 +173,7 @@ main h2{
     max-width: 100%;
     text-align: left;
     background-size: cover; 
+  
     
 }
 .weathersummary {
@@ -283,3 +284,5 @@ p.articlecontent {
     padding: 5px;
     float: center;
 }/*end of activities*/
+
+
