@@ -59,7 +59,7 @@
 }
  
 
-/*------------FORM-----------------*/
+/*----FORM-----*/
 form fieldset{
     margin: 2rem 0;
     border: 1px solid gray;
@@ -106,6 +106,12 @@ form label.top input:required:valid {
     min-width: 295px;
     max-width: 90%;
     min-height: 125px;
-}
+}/*---- enf of FORM-----*/
 
-
+/*----icons-----*/
+.socialmedia{
+    box-shadow: 8px 8px 8px blue;
+    padding: 25px;
+    width: 10px;
+    height:10px
+}/*----end of icons-----*/
