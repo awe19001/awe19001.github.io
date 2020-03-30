@@ -67,8 +67,29 @@
     color: black;
 }
 
+/*reservations*/
+.card-contentBIA {
+    text-align: justify;
+    padding: 10px;
+}
+table, th, td {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	margin: auto;
+	vertical-align: center;
+	table-layout: fixed;
+}
+th {
+	background-color: teal;
+	font-size: 1.5em;
+	color: white;
+    text-align: center;
+}/*end of reservations*/
 
 
+
+/*section-search*/
 .section-search input {
     padding: 5px;
     font-size: 18px;
@@ -77,10 +98,10 @@
 }
 .section-follow .fa-4x {
     margin: 5px 10px;
-}
+}/*end of section-search*/
  
 
-/*----FORM-----*/
+/*----contact us FORM-----*/
 form fieldset{
     margin: 2rem 0;
     border: 1px solid gray;
@@ -127,7 +148,7 @@ form label.top input:required:valid {
     min-width: 295px;
     max-width: 90%;
     min-height: 125px;
-}/*---- enf of FORM-----*/
+}/*---- enf of contact us FORM-----*/
 
 /*----icons-----*/
 .socialmedia{
