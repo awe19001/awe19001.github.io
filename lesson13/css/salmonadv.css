@@ -110,8 +110,6 @@ form label.top input:required:valid {
 
 /*----icons-----*/
 .socialmedia{
-    box-shadow: 8px 8px 8px blue;
-    padding: 25px;
-    width: 10px;
-    height:10px
-}/*----end of icons-----*/
+    padding: 0px;
+   
+  }/*----end of icons-----*/
