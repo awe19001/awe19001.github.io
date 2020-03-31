@@ -86,15 +86,17 @@ table, th, td {
 
 th {
 	background-color: teal;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: white;
     text-align: center;
 }  
 tr {
     color:black;
-    font-size: 12px;
+    font-size: 15px;
 }
-
+.thsummary {
+    font-size: 25px;
+}
 .card-contenttable{
     color: #6e0067;
 }
