@@ -83,12 +83,24 @@ table, th, td {
 	vertical-align: center;
 	table-layout: fixed;
 }
+
 th {
 	background-color: teal;
 	font-size: 1.5em;
 	color: white;
     text-align: center;
-}/*end of reservations*/
+}  
+tr {
+    color:black;
+    font-size: 10px;
+}
+
+.card-contenttable{
+    color: #6e0067;
+}
+
+
+/*end of reservations*/
 
 
 
