@@ -156,7 +156,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left:green solid 6px;
+    border-left:blue solid 6px;
 }
 #additionalcomments {
     border-radius: 4px;

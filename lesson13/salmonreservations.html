@@ -161,7 +161,7 @@
 <!--section: prices-->
 <section class="section section-popular scrollspy">
   <div class="container">
-    < class="row">
+    <div class="row">
       <h4 class="center"> <span class="blue-text">Pricing </span>Information</h4>
         <div class="col s12 m4">
         <h6>Riggins Area Rafting</h6>
@@ -279,7 +279,29 @@
          </section>
        
             
-<section>
+<section class="section section-contact scrollspy">
+  <div class="container">
+       <form method="get" action="thanks.html">
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-3">
+        <form>
+           <fieldset>
+            <legend><h5>Please Fill Out this form</h5></legend>
+            <label class="top">Full Name* <input type="text" size="20" name="fname" pattern="[A-Za-z\s]{5,}" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="1234555555" required></label>
+            </fieldset>
+        <fieldset>
+            <legend><span>Please Enter Any Additional Information</span></legend>  
+            <label class="top" for="additionalcomments">
+              <textarea id="additionalcomments" name="comments" placeholder="Enter Message">Hi!</textarea>
+            </label>
+        </fieldset>
+        <input class="btn" type="submit" value="Ask More Information" >
+        </form>
+    </div>   
+    </div>
+      
 		<h1>Reserve Your Spot Today!</h1>
 <form id="register" action="thanks.php" method="post">
 </section>
