@@ -59,6 +59,12 @@
 .material-icons {
     color: black;
 }
+/*slider caption*/
+.slidercaption{
+    color: yellowgreen;
+}
+
+
 /*Contact us*/
 .contactusforreservations {
     color: black;
