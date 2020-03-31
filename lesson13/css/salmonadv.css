@@ -152,7 +152,7 @@ form label.top input, form label.top select{
     background-color: rgba(0,0,0,0.1);
 }
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: salmon solid 6px;
 }
 
 form label.top input:required:valid {
