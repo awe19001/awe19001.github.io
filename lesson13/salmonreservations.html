@@ -286,10 +286,22 @@
           <div class="card-panel grey lighten-3">
         <form>
            <fieldset>
-            <legend><h5>Please Fill Out this form</h5></legend>
+            <legend><h5>Please Fill Out This Form For Reservations</h5></legend>
             <label class="top">Full Name* <input type="text" size="20" name="fname" pattern="[A-Za-z\s]{5,}" required></label>
             <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
             <label class="top">Phone* <input type="tel" name="phone" placeholder="1234555555" required></label>
+            </fieldset>
+            <fieldset>
+              <legend>Storm Information</legend>
+              <label class="top">Start Date <input type="date" name="startDate"></label>
+              <label class="top">Adventure Selection <input list="type" id="stormtype" name="typeofadventure">
+                <datalist id="type">
+               <option value="Beginner"></option>
+               <option value="Intermediate"></option>
+               <option value="Advanced"></option>
+               </datalist> 
+
+
             </fieldset>
         <fieldset>
             <legend><span>Please Enter Any Additional Information</span></legend>  
