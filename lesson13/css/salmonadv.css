@@ -1,4 +1,20 @@
-   
+/*Navigation*/
+#navigationactive .active {
+    display:flex;
+    border: solid 2px #ABB4D3;
+    border-top: solid 1px white;
+    border-width: thin;
+    border-color: white;
+    justify-content:center;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: black;
+}   
+
+
+
+
+
 /*call to action button*/
 .button {
     display: inline-block;
