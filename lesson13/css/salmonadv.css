@@ -59,13 +59,41 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: bold;
 }
 .material-icons {
     color: black;
 }
+.fa {
+    margin-right: 8px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
 ul li.active a{
-    background-color: #9c2c13;
+    color: black;
+}
+.submenu1 {
+    display: none;
+}
+ul li:hover .submenu1 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-left: -15px;
+}
+ul li:hover .submenu1 ul {
+    display: block;
+    margin: 10px;
+}
+ul li:hover .submenu1 ul li {
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
 }
 
 /*Contact us*/
