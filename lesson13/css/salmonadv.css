@@ -56,10 +56,9 @@
 
 /*Navigation*/
 .brand-company {
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 30px;   
 }
 .material-icons {
     color: black;
@@ -69,31 +68,12 @@
 }
 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 15px;
 }
 ul li.active a{
     color: black;
-}
-.submenu1 {
-    display: none;
-}
-ul li:hover .submenu1 {
-    display: block;
-    position: absolute;
-    background-color: white;
-    margin-left: -15px;
-}
-ul li:hover .submenu1 ul {
-    display: block;
-    margin: 10px;
-}
-ul li:hover .submenu1 ul li {
-    width: 120px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+    font-weight: bold;
 }
 
 /*Contact us*/
@@ -133,11 +113,20 @@ tr {
 }
 .card-contenttable{
     color: #6e0067;
+}/*end of reservations*/
+
+/*beginner*/
+.beginner {
+	text-align: center;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: large;
 }
-
-
-/*end of reservations*/
-
+.beginnerh2 {
+    font-family: cursive; 
+    color: teal;
+}
 
 
 /*section-search*/
@@ -204,5 +193,24 @@ form label.top input:required:valid {
 /*----icons-----*/
 .socialmedia{
     padding: 0px;
-   
-  }/*----end of icons-----*/
+}/*----end of icons-----*/
+
+/*Tips*/
+.news {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: left;
+	padding-bottom: 30px;
+}
+ul.normallist {
+	text-indent: 40px;
+	list-style: disc;
+    margin-top:0;
+    padding-left: 50px;
+    padding-right: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-position: inside;
+	color:black;
+}
+/*---end of tips--*/
