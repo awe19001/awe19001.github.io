@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/awe19001/awe19001.github.io/lesson13/professionalguide.json';
+const requestURL = 'https://awe19001.github.io/lesson13/professionalguide.json';
 fetch(requestURL)
     .then(function (response) {
         //console.Log(response);
