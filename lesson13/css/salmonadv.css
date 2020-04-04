@@ -1,4 +1,7 @@
- 
+/*slider*/
+.sliderorange {
+    color: orange;
+}
 
 
 
@@ -212,5 +215,9 @@ ul.normallist {
 	font-family: Arial, Helvetica, sans-serif;
 	list-style-position: inside;
 	color:black;
-}
-/*---end of tips--*/
+}/*---end of tips--*/
+
+/*search destination*/
+.input-field {
+    color: black;
+}/*end of search destination*/
