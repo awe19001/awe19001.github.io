@@ -222,27 +222,3 @@ ul.normallist {
     color: black;
 }/*end of search destination*/
 
-/*Professional Guides*/
-.cards {
-    display: grid;
-    grid-template-columns: 300px;
-    justify-content: center;   
-}
-
-.cards section {
-    padding: 1rem;
-    margin: 1rem;
-    background-color: teal;
-    text-align: center;
-}
-
-.cards section img {
-    width: 100%;
-    height: auto;
-    padding-top: 1rem;
-}
-@media only screen and (min-width: 1000px) {
-    .cards {
-        grid-template-columns: repeat(4, 300px);
-    }
-}/*end of Professional Guides*/
