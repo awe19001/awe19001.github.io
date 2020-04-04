@@ -240,6 +240,10 @@ ul.normallist {
     width: 100%;
     height: auto;
     padding-top: 1rem;
-}/*end of Professional Guides*/
+}
+@media only screen and (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(4, 300px);
+    }/*end of Professional Guides*/
 
 
