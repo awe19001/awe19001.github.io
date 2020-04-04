@@ -55,9 +55,9 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     .cards {
-        grid-template-columns: repeat(4, 300px);
+        grid-template-columns: repeat(3, 300px);
     }
 }
 
