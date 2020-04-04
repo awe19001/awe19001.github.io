@@ -221,3 +221,25 @@ ul.normallist {
 .input-field {
     color: black;
 }/*end of search destination*/
+
+/*Professional Guides*/
+.cards {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;   
+}
+
+.cards section {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: teal;
+    text-align: center;
+}
+
+.cards section img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+
+
