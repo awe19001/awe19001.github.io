@@ -244,6 +244,5 @@ ul.normallist {
 @media only screen and (min-width: 1000px) {
     .cards {
         grid-template-columns: repeat(4, 300px);
-    }/*end of Professional Guides*/
-
-
+    }
+}/*end of Professional Guides*/
