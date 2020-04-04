@@ -15,12 +15,14 @@ fetch(requestURL)
             let div1 = document.createElement('div');
             let div2 = document.createElement('div');
             let div3 = document.createElement('div');
+            let div4 = document.createElement('div');
               
             h2.textContent = professional[i].name;
 
             div1.textContent = 'Certification Level: ' + professional[i].level;
             div2.textContent = 'Number of Years: ' + professional[i].years;
             div3.textContent = 'Email Address: ' + professional[i].email;
+            div4.textContent = 'Biography: ' + professional[i].bio;
             image.setAttribute('src', professional[i].imageurl);
             image.setAttribute('alt', professional[i].name)
 
@@ -30,6 +32,8 @@ fetch(requestURL)
             card.appendChild(div3);
  
             card.appendChild(image);
+
+            card.appendChild(div4);
 
             document.querySelector('div.cards').appendChild(card);
         }});
