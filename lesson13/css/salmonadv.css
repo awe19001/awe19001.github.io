@@ -15,6 +15,40 @@
     box-shadow:  0 0 30px #777;
     opacity: .8;
 }
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex img {
+    width: 100px;
+    display: block;
+} 
+.patindog {
+    flex: 1 1 100%;
+    border: 1px solid teal;
+    background: radial-gradient(#bb00cc, #6e0067);
+	font-size: 15px;
+    text-align: center;
+    width: 100px;
+}
+.dayPangan {
+    color: black;
+    background-color:white;
+    display: block;
+    height: 35px;
+    font-size: 1rem;
+    padding-top: 6px;   
+}
+.dataTemp {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    color: white;
+}
+.five {
+    display: block;
+}
+
 
 /*call to action button*/
 .button {
