@@ -2,6 +2,9 @@
 .sliderorange {
     color:#ff1744;
 }
+/*landing body div*/
+.navbar-fixed{position:relative;height:56px;z-index:997}
+.navbar-fixed nav{position:fixed}
 
 
 
