@@ -2,14 +2,6 @@
 .sliderorange {
     color:#ff1744;
 }
-/*landing body div*/
-.navbar-fixed{position:relative;height:56px;z-index:997}
-.navbar-fixed nav{position:fixed}
-
-
-
-
-
 /*call to action button*/
 .button {
     display: inline-block;
@@ -199,6 +191,7 @@ form label.top input:required:valid {
 /*----icons-----*/
 .socialmedia{
     padding: 0px;
+    width: 25px;
 }/*----end of icons-----*/
 
 /*Tips*/
