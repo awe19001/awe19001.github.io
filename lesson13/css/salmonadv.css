@@ -2,6 +2,20 @@
 .sliderorange {
     color:#ff1744;
 }
+/*weather*/
+.weathersummary {
+    width: 150px; 
+    font-size: 8px;
+    padding: 1rem;
+    top: 25px;
+    left: 25px;
+    border: 1px solid #000000;
+    background: teal;
+    border: .5px solid violet;
+    box-shadow:  0 0 30px #777;
+    opacity: .8;
+}
+
 /*call to action button*/
 .button {
     display: inline-block;
