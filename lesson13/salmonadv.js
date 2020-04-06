@@ -1,44 +1,33 @@
-// Side Menu
-const sideNav = document.querySelector('.sidenav');
-M.Sidenav.init(sideNav, {});
+ //sidenav
+ const sideNav = document.querySelector('.sidenav');
+ M.Sidenav.init(sideNav, {});
+ //slider
+ const slider = document.querySelector('.slider');
+ M.Slider.init(slider,{
+   indicators: false,
+   height: 500,
+   transition: 500,
+   interval: 6000
+ });
+ //autocomplete
+ const ac = document.querySelector('.autocomplete');
+ M.Autocomplete.init(ac, {
+   data: {
+     "Middle Fork": null,
+     "Goldbug Hot Springs": null,
+     "Lemhi Historical Museum": null,
+     "Lewis & Clark Back Country ByWay": null,
+     "Meriwether Lewis": null,
+     "Main Salmon River": null,
+     "Middle Fork": null,
+    }
+ })
 
-// Slider
-const slider = document.querySelector('.slider');
-M.Slider.init(slider, {
-    indicators: false,
-    height: 500,
-    transition: 500,
-    interval: 6000
-  });
+//material boxed
+const mb = document.querySelectorAll ('.materialboxed');
+M.Materialbox.init(mb, {}); 
 
-// Scrollspy
+//scrollspy
 const ss = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(ss, {});
-
-// Material Boxed
-const mb = document.querySelectorAll('.materialboxed');
-M.Materialbox.init(mb, {});
-
-// Auto Complete
-const ac = document.querySelector('.autocomplete');
-M.Autocomplete.init(ac, {
-    data: {
-      "Aruba": null,
-      "Cancun Mexico": null,
-      "Hawaii": null,
-      "Florida": null,
-      "California": null,
-      "Jamaica": null,
-      "Europe": null,
-      "The Bahamas": null,
-    }
-  });
-
-
-
-  
-
-
-
-
 
