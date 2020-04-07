@@ -496,10 +496,8 @@
  .waves-effect input[type="button"],.waves-effect input[type="reset"],.waves-effect input[type="submit"]{border:0;font-style:normal;font-size:inherit;text-transform:inherit;background:none}
  .waves-effect img{position:relative;z-index:-1}
  .waves-notransition{-webkit-transition:none !important;transition:none !important}
- .waves-circle{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(circle, white 100%, black 100%)}
  .waves-input-wrapper{border-radius:0.2em;vertical-align:bottom}
  .waves-input-wrapper .waves-button-input{position:relative;top:0;left:0;z-index:1}
- .waves-circle{text-align:center;width:2.5em;height:2.5em;line-height:2.5em;border-radius:50%;-webkit-mask-image:none}
  .waves-block{display:block}.waves-effect .waves-ripple{z-index:-1}
  .modal{display:none;position:fixed;left:0;right:0;background-color:#fafafa;padding:0;max-height:70%;width:55%;margin:auto;overflow-y:auto;border-radius:2px;will-change:top, opacity}
  .modal:focus{outline:none}
@@ -541,7 +539,7 @@
  .chips .autocomplete-content{margin-top:0;margin-bottom:0}
  .prefix ~ .chips{margin-left:3rem;width:92%;width:calc(100% - 3rem)}
  .chips:empty ~ label{font-size:0.8rem;-webkit-transform:translateY(-140%);transform:translateY(-140%)}
- .materialboxed{display:block;cursor:-webkit-zoom-in;cursor:zoom-in;position:relative;-webkit-transition:opacity .4s;transition:opacity .4s;-webkit-backface-visibility:hidden}
+ .materialboxed{display:block;cursor:-webkit-zoom-in;cursor:zoom-in;position:relative;-webkit-transition:opacity .4s;transition:opacity .4s;}
  .materialboxed:hover:not(.active){opacity:.8}
  .materialboxed.active{cursor:-webkit-zoom-out;cursor:zoom-out}
  #materialbox-overlay{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#292929;z-index:1000;will-change:opacity}
