@@ -1,0 +1,268 @@
+/*slider*/
+.sliderorange {
+    color:#ff1744;
+}
+/*weather*/
+.weathersummary {
+    width: 150px; 
+    font-size: 8px;
+    padding: 1rem;
+    top: 25px;
+    left: 25px;
+    border: 1px solid #000000;
+    background: teal;
+    border: .5px solid violet;
+    box-shadow:  0 0 30px #777;
+    opacity: .8;
+    font-family: cursive;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex img {
+    width: 100px;
+    display: block;
+} 
+.patindog {
+    flex: 1 1 100%;
+    border: 1px solid teal;
+    background: radial-gradient(#bb00cc, #6e0067);
+	font-size: 15px;
+    text-align: center;
+    width: 100px;
+}
+.dayPangan {
+    color: black;
+    background-color:white;
+    display: block;
+    height: 35px;
+    font-size: 1rem;
+    padding-top: 6px;   
+}
+.dataTemp {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    color: white;
+}
+.five {
+    display: block;
+}
+
+
+/*call to action button*/
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 27px;
+    border: 0px solid #006d6d;
+    border-radius: 11px;
+    background: #bb00cc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bb00cc), to(#6e0067));
+    background: -moz-linear-gradient(top, #bb00cc, #6e0067);
+    background: linear-gradient(to bottom, #bb00cc, #6e0067);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+.button:hover,
+.button:focus {
+    border: 0px solid #008080;
+    background: #e000f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e000f5), to(#84007c));
+    background: -moz-linear-gradient(top, #e000f5, #84007c);
+    background: linear-gradient(to bottom, #e000f5, #84007c);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #70007a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#70007a), to(#6e0067));
+    background: -moz-linear-gradient(top, #70007a, #6e0067);
+    background: linear-gradient(to bottom, #70007a, #6e0067);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEDUlEQVRIiYWWT2hcdRDHP/N7L5tNuk1Ns6ShsbSmijayTQtVBKVScxAvMWKpINGDR3vUBnqSnoIpeCuIt0KpGLQ0pRfBHHrwpNiS1ARqXaM0iUnTbLPZZPN2X954eL/3J9uoAw/m93u/38x3vjNv5glg2EGGxydBzLOgpwX6FXqBTvt6CZgGJoAxxRQvDry4kxnEOgjSjoZvTPUAI8CggAug9vAOug9cB86PDhTup+wEgEk74Nz1GSPGHwIuATkRAQVFifTIsqKIXWh4qAKc9Zv9K1+8eTwCHMSoPw2NDwtcFiGXXFUEyC/Osrv8EFRRDffSukAOuOx67vAn39+JQbvWvjHGHxIYQSQhD+JlfbPKqVvf8Ch/gJmjJ1np6E5eps6jjDieMw9ciXNgOb8tIrn4gqUjRCg4QZWXfviafaVF1Bh+e+EVZgonURHE0kiiV1D6Rt8uFJ3h8UlB5EvgWDqJofcE4at7ZlmqZOhceoAB8ssPaK6us7j/cBKAENGVQeh+7f2PvzNhKTIoImHIIoh9EKwOR1rmWc13k5ZDxTs8c/+X5B6JDWBQlR4DejrKhWqIXW3yonC6msp0NZXxdrVBvK+gSu/kLbIbazSKiLjAGSPQL7CtMtJ5UJQTudlwISZJrEXa5Nc4fO/nsKLQ2LGGRPcbhV5iSp6kqM3ZpND6ABGhue49gRTgwJ93k5yl6YJeA3SmqWmk6PU993DZAmBXpfQERQDZaoW21Yc7+c6bKFolil6x4DnYvMyx1r8sW0r7ykICIGLR6ntKiyS7xLoBllDbElRABVWh3d3gnb23MbaSUOj8+4+YvsandX01zlvKz7ILTCvaFRoJP5Yj2QXeap9it+OFWBRqj2u0rDwKi0EktJHS3bqHIHGPsvq0C0yI8EaaormVGl8tPL2NzKAW4PX1pD697RLs3Zc0RaJmyIQLjKlyAXBdx/DesW4y7sF/MfPfUvG2+HZyDg0A8BXGXEWKgl4X4XR9K+DHX3/no1N9NDkmDN9Wyv/pD8sb3PxphiBojUr0mqLFhmZHbqte5yld592Xn+e5/R0Y2U6KKtR8n1Jlk4XSGvOlNYqLJYorVTJtHRjHQVXLwPHRgUIxHjjDN6Y+BC4LgmqAt/aYnPHp3J3FdQw1P6Ba81nzfDbqAYExOG4G09SMk8lgxEFFbTflg9GBwlVI5gHZqlzZbNH9CiMiQratnTowFygEtndnBDKQtbSIbZ8xXaHx8y14V6PcbxuZn43dNdWsDgGXBHKILTtbYlEJNo7LMGotA2db8K5eGDgRRMB3HvrjU4cQPgcGATeNVBBLRezAB64RDv3ZxsraFoEVAwTnbk4ZCegBzgD9hL8teXtmGZgWmFAYU7R4ceBo0GDLAME/G4fuo83AzRYAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}/*end of call to action button*/
+
+/*Navigation*/
+.brand-company {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;   
+}
+.material-icons {
+    color: black;
+}
+.fa {
+    margin-right: 8px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+ul li.active a{
+    color: black;
+    font-weight: bold;
+}
+
+/*Contact us*/
+.contactusforreservations {
+    color: black;
+}
+.doyouhaveaquestion {
+    color: black;
+}
+
+/*reservations*/
+.card-contentBIA {
+    text-align: justify;
+    padding: 10px;
+}
+table, th, td {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	margin: auto;
+	vertical-align: center;
+	table-layout: fixed;
+}
+
+th {
+	background-color: teal;
+	font-size: 1em;
+	color: white;
+    text-align: center;
+}  
+tr {
+    color:black;
+    font-size: 15px;
+}
+.thsummary {
+    font-size: 25px;
+}
+.card-contenttable{
+    color: #6e0067;
+}/*end of reservations*/
+
+/*beginner*/
+.beginner {
+	text-align: center;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: large;
+}
+.beginnerh2 {
+    font-family: cursive; 
+    color: teal;
+}
+
+
+/*section-search*/
+.section-search input {
+    padding: 5px;
+    font-size: 18px;
+    width: 90%;
+    border: #f4f4f4 3px solid;
+}
+.section-follow .fa-4x {
+    margin: 5px 10px;
+}/*end of section-search*/
+ 
+
+/*----contact us FORM-----*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+legend{
+    font-size: 1.3rem;
+}
+form legend{
+    color: rgb(36, 31, 31);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.top input:required {
+    border-left: salmon solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left:teal solid 6px;
+}
+#additionalcomments {
+    border-radius: 4px;
+    margin-top: 15px;
+    display: block;
+    min-width: 295px;
+    max-width: 90%;
+    min-height: 125px;
+}/*---- enf of contact us FORM-----*/
+
+/*----icons-----*/
+.socialmedia{
+    padding: 0px;
+}/*----end of icons-----*/
+
+/*Tips*/
+.news {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: left;
+	padding-bottom: 30px;
+}
+ul.normallist {
+	text-indent: 40px;
+	list-style: disc;
+    margin-top:0;
+    padding-left: 50px;
+    padding-right: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-position: inside;
+	color:black;
+}/*---end of tips--*/
+
+/*search destination*/
+.input-field {
+    color: black;
+}/*end of search destination*/
+

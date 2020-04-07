@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Salmon River Adventures </title>
+    <meta name="description" content="Salmon River Adventures for CIT 230">
+     <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joeverlyn Awe"> 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/salmonadv.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://use.fontawesome.com/4ac74405ef.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/raft2.png" alt="raft and sun image"></a>
+      
+        <section>
+            <h1> Salmon River Adventuresome </h1> 
+            <div class="m">River water has memory.</div>
+        </section> 
+    </header>
+
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li class="ham"><a href="#" >&#9776; Menu </a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="activities.html">Activites</a></li>
+            <li><a href="riverguide.html">River Guide</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li class="active"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+   <main>
+<!--section: weather-->
+<div class="container">
+  <div class="row">
+<div class="weathersummary"> 
+  <h2> Riggins Weather</h2>
+  <p>Currently: <span id="currently"> Clear Sky</span></p>
+  <p>High: <span id="high"> 55</span> &deg;F</p>
+  <p>Wind Chill: <span id="windchill"> </span> &deg;F</p>
+  <p>Humidity: <span id="humidity"> 66</span>%</p>
+  <p>Wind Speed: <span id="windspeed"> 10</span> mph</p>
+</div>
+
+
+
+<div class="five">
+  <h2 class="beginnerh2">Riggins Weather</h2>
+    <div id="limaKaAdlaw" class="flex">
+    </div>
+  </div>
+</div>
+</div>
+    
+<a class="weatherwidget-io" href="https://forecast7.com/en/45d42n116d32/riggins/" data-label_1="RIGGINS" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="salmon" data-textcolor="#060606" data-highcolor="#090808" data-lowcolor="#0a0909" data-mooncolor="#0e0d0d" data-cloudcolor="#0a0a0a" data-raincolor="#0b0a0a" >RIGGINS WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+       
+     <h2> Contact Information </h2>   
+     <div class="contactinfo">
+        <img class="map-image" src="image/prestonmap.jpg" alt="prestonmap">
+        <table class="add-table">
+        <tbody>
+            <tr>
+                <td class="add-title"><strong>Climate Site</strong></td> 
+            </tr>
+            <tr>
+                <td class="address"> Tuburan Sur, Danao City </td>
+            </tr>
+            <tr>    
+                <td class="address"> Philippines, 6004 </td>
+            </tr>
+            <tr>
+                <td class="address"> &#9993; climatesite@info.com </td>
+            </tr>
+            <tr>
+                <td class="address"> &#9742; 0945-8878-555 </td>
+            </tr>
+        </tbody>
+        </table>
+      </div>
+    </main>
+    
+    <footer>
+        <div id="footer">
+            <p class="p-onsite">© 2020 | Joeverlyn Capute Awe | Cebu, Philippines | <a href="https://www.byui.edu/online">BYUI Online learning</a></p>
+            <p class="p-onsite">Current Date: <span id="currentdate"></span> 
+             </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+   
+    <script src="js/notice.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/salmonsummary.js"></script>
+    <script src="js/salmonforecast.js"></script>
+       
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/salmonadv.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://use.fontawesome.com/4ac74405ef.js"></script>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Salmon River Rafting</title>
+  </head>
+  
+  <body class="scrollspy">
+    <div class="navbar-fixed">
+      <nav class="section blue darken-2 white-text center">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="salmonlanding.html" class="brand-company">Salmon River Rafting</a>
+            <a href="salmonlanding.html" data-target="mobile-nav" 
+            class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="salmonlanding.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="salmonactivities.html">Activities</a>
+            </li>
+            <li  class="active">
+              <a href="salmonguides.html">River Guide</a>
+            </li>
+            <li>
+              <a href="salmoncontactus.html"><i class="fa fa-phone"></i>Contact Us</a>
+            </li>
+            <li>
+              <a href="salmonreservations.html">Reservations</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="salmonlanding.html">Home</a>
+      </li>
+      <li>
+        <a href="salmonactivities.html">Activities</a>
+      </li>
+      <li>
+        <a href="salmonguides.html">River Guide</a>
+      </li>
+      <li>
+        <a href="salmoncontactus.html">Contact Us</a>
+      </li>
+      <li>
+        <a href="salmonreservations.html">Reservations</a>
+      </li>
+      </ul>
+     
+  
+
+<!--section: slider-->
+<section class="slider">
+<ul class="slides">
+   <li>
+    <img src="imahe/slider1.jpg" alt="lady rafting">
+    </li>
+ </ul>
+ </section>
+ 
+
+<!--section: beginner-->  
+<section>
+<div class="container"> 
+  <div class="col s12 m6">
+    <div class="card-panel grey lighten-3">
+<h1 class="beginnerh2">Professional Guides</h1>
+
+<p>These Intermediate rafting trips are suitable for families with active teens and adventurous groups like adventure scouts with swimming abilities.</p>
+
+<main>
+  <div class="cards"></div>
+</main>
+</div></section>
+
+
+
+
+
+  <!--section: follow-->
+  <section class="section section-follow blue darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4> Follow Salmon River Adventure</h4>
+          <p>Ask how booking with us can save you additional $50 or more.</p>
+          <a class="socialmedia" target="_blank" href="https://www.facebook.com/">
+            <img src="imahe/iconfb.png" width="45" alt="facebook"></a>
+          
+          <a class="socialmedia" target="_blank" href="https://www.youtube.com/channel/UCBE9kT28ozxVWdgPdMJa5RQ">
+                <img src="imahe/iconyt.png" width="45" alt="youtube"></a>
+  
+         <a class="socialmedia" target="_blank" href="https://www.twitter.com/">
+                    <img src="imahe/icontw.png" width="45" alt="twitter"></a>   
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--footer-->
+<footer class="section blue darken-2 white-text center">
+<p>Discover Idaho and it's precious gemstones.</p>
+<p>Salmon River Adventures &copy; 2020</p>
+<p><i class="fa fa-phone"></i>945.8878.555</p>
+<p class="flow-text">Certified Travel Expert</p>
+</footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+      //sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+      //slider
+      const slider = document.querySelector('.slider');
+      M.Slider.init(slider,{
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+      //autocomplete
+      const ac = document.querySelector('.autocomplete');
+      M.Autocomplete.init(ac, {
+        data: {
+          "Middle Fork": null,
+          "Goldbug Hot Springs": null,
+          "Lemhi Historical Museum": null,
+          "Lewis & Clark Back Country ByWay": null,
+          "Meriwether Lewis": null,
+          "Main Salmon River": null,
+          "Middle Fork": null,
+         }
+      })
+
+    //material boxed
+    const mb = document.querySelectorAll ('.materialboxed');
+    M.Materialbox.init(mb, {}); 
+
+    //scrollspy
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+
+
+    //weather update
+const apiURL='HTTPS://api.openweathermap.org/data/2.5/weather?id=6139605&units=imperial&APPID=cc212cbbd0ff298fb3b28b06c3097120';
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    document.getElementById('currently').textContent = jsObject.weather[0].main;
+    document.getElementById('high').textContent = jsObject.main.temp_max.toFixed(0);
+    document.getElementById('humidity').textContent = jsObject.main.humidity;
+    document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(0);
+
+    const high = jsObject.main.temp;
+    const windspeed = jsObject.wind.speed;
+   
+  });
+
+
+    </script>  
+
+ 
+  </body>
+</html>
