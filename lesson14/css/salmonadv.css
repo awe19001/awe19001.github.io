@@ -16,6 +16,15 @@
     opacity: .8;
     font-family: cursive;
 }
+.pcenter {
+    font-family: cursive;   
+    text-align: center;
+}
+.beginnerh2center {
+    font-family: cursive; 
+    color: teal;
+    text-align: center;
+}
 .flex {
     display: flex;
     flex-direction: row;
