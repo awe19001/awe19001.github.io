@@ -92,7 +92,7 @@
  .transparent{background-color:rgba(0,0,0,0) !important}
  .transparent-text{color:rgba(0,0,0,0) !important}
  
- /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+ /*! normalize */
  html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
  body{margin:0}
  article,aside,footer,header,nav,section{display:block}
@@ -169,7 +169,7 @@
  .pagination li.pages ul li{display:inline-block;float:none}
  @media only screen and (max-width: 992px){.pagination{width:100%}.pagination li.prev,.pagination li.next{width:10%}.pagination li.pages{width:80%;overflow:hidden;white-space:nowrap}}
  .breadcrumb{font-size:18px;color:rgba(134, 37, 37, 0.7)}
- .breadcrumb i,.breadcrumb [class^="mdi-"],.breadcrumb [class*="mdi-"],.breadcrumb i.material-icons{display:inline-block;float:left;font-size:24px}
+ .breadcrumb i,.breadcrumb [class^="mdi-"],.breadcrumb [class*="mdi-"],.breadcrumb i.material-icons{display:inline-block;font-size:24px}
  .breadcrumb:before{content:'\E5CC';color:rgba(255,255,255,0.7);vertical-align:top;display:inline-block;font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:25px;margin:0 10px 0 8px;-webkit-font-smoothing:antialiased}
  .breadcrumb:first-child:before{display:none}
  .breadcrumb:last-child{color:#fff}
@@ -483,14 +483,7 @@
  
  
  
- 
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
+*/
  .waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;vertical-align:middle;z-index:1;-webkit-transition:.3s ease-out;transition:.3s ease-out}
  .waves-effect .waves-ripple{position:absolute;border-radius:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;opacity:0;background:rgba(0,0,0,0.2);-webkit-transition:all 0.7s ease-out;transition:all 0.7s ease-out;-webkit-transition-property:opacity, -webkit-transform;transition-property:opacity, -webkit-transform;transition-property:transform, opacity;transition-property:transform, opacity, -webkit-transform;-webkit-transform:scale(0);transform:scale(0)}
  .waves-effect.waves-light .waves-ripple{background-color:rgba(255,255,255,0.45)}
