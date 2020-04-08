@@ -149,6 +149,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .img1, .img3 {
+        width: 300px; 
+        padding: 20px;
+        float: left; 
+    }
+    .img2 {
+        width: 300px; 
+        float: right;
+    }
  
     .contactinfo img {
         display: none;

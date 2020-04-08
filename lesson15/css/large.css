@@ -36,6 +36,7 @@ header, footer{
 .headings h1 {
   font-size: 3rem;
 }
+/*navigation*/
 .navigation{
     list-style: none;
     text-align: center;
@@ -63,7 +64,8 @@ header, footer{
 }
 .responsive li {
     border-top-style: none;
-}
+}/*end of navigation*/
+
 .gallery-photo:hover {
     box-shadow: 0 0 50px #333;
 }
@@ -174,61 +176,6 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-#top-row, #middle-row {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
-#bottom-row {
-    text-align: center;
-    background-color: teal;
-    color: white;
-    font-size: 2rem;
-}
-.leftcolumn, .rightcolumn  {
-    max-width: 48%;
-    flex: 1 0 15em;
-    margin:.5em;
-}
-
-.between {
-    color: teal;
-    font-style: italic;
-}
-.salmon{
-    color: teal;
-    text-align: center;
-    font-family:'Poppins', sans-serif;
-    font-size:2em;
-    padding:20px;
-    line-height:1em;
-    margin-bottom: .5em
-}
-.nestled {
-    color: teal;
-}
-.salmonwhite{
-    color: white;
-    text-align: center;
-    font-family:'Poppins', sans-serif;
-    font-size:2em;
-    padding:20px;
-    line-height:1em;
-    margin-bottom: .5em
-}
-.nestledwhite {
-    color: white;
-}
-.nestledwhitep {
-    color: white;
-    font-size: .8rem;
-}
-
-#middle-row {
-    background-color: teal;
-    color: white;
 }
 .img1, .img3 {
     width: 400px; 

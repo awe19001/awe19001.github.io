@@ -270,6 +270,70 @@ footer a{
 .five {
     display: none;
 }
+#top-row, #middle-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#bottom-row {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-size: 2rem;
+}
+.leftcolumn, .rightcolumn  {
+    max-width: 48%;
+    flex: 1 0 15em;
+    margin:.5em;
+}
+
+.between {
+    color: teal;
+    font-style: italic;
+}
+.salmon{
+    color: teal;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size:2em;
+    padding:20px;
+    line-height:1em;
+    margin-bottom: .5em
+}
+.nestled {
+    color: teal;
+}
+.salmonwhite{
+    color: white;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size:2em;
+    padding:20px;
+    line-height:1em;
+    margin-bottom: .5em
+}
+.nestledwhite {
+    color: white;
+}
+.nestledwhitep {
+    color: white;
+    font-size: .8rem;
+}
+
+#middle-row {
+    background-color: teal;
+    color: white;
+}
+.img1, .img3 {
+    width: 250px; 
+    padding: 20px;
+    float: left; 
+}
+.img2 {
+    width: 250px; 
+    float: right;
+}
 .beginnerh2 {
     font-family: cursive; 
     color: teal;
