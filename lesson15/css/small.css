@@ -50,6 +50,7 @@ header, footer {
     display: flex;
     flex-direction: column;
   }
+
 .navigation{
     list-style: none;
     text-align: center;
@@ -221,7 +222,8 @@ footer a{
 .cards {
     display: grid;
     grid-template-columns: 300px;
-    justify-content: center;   
+    justify-content: center;
+    color:white;   
 }
 
 .cards section {
@@ -229,6 +231,9 @@ footer a{
     margin: .8rem;
     background-color: teal;
     text-align: center;
+}
+.cards section h2 {
+    color: white;
 }
 
 .cards section img {
@@ -238,6 +243,7 @@ footer a{
 }
 main section {
     margin-left: 25px;
+    color: white;
 }
 
 @media only screen and (min-width: 250px) {
