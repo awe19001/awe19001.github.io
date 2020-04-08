@@ -375,7 +375,18 @@ main section {
     color: white;
     font-size: .8rem;
 }
-
+.salmoncontact{
+    color: white;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size:2em;
+    padding:20px;
+    line-height:1em;
+    margin-bottom: .5em
+}
+.nestledcontact{
+    color: white;
+}
 #middle-row {
     background-color: teal;
     color: white;
