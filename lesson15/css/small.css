@@ -76,6 +76,18 @@ header, footer {
 .responsive li {
     display: block;
 }
+.btn{
+    border: none;
+    background-color: #bb00cc;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+}
+
+
+
 .container {
     margin: 0 auto;
     display:grid; 
@@ -204,6 +216,49 @@ footer a{
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEDUlEQVRIiYWWT2hcdRDHP/N7L5tNuk1Ns6ShsbSmijayTQtVBKVScxAvMWKpINGDR3vUBnqSnoIpeCuIt0KpGLQ0pRfBHHrwpNiS1ARqXaM0iUnTbLPZZPN2X954eL/3J9uoAw/m93u/38x3vjNv5glg2EGGxydBzLOgpwX6FXqBTvt6CZgGJoAxxRQvDry4kxnEOgjSjoZvTPUAI8CggAug9vAOug9cB86PDhTup+wEgEk74Nz1GSPGHwIuATkRAQVFifTIsqKIXWh4qAKc9Zv9K1+8eTwCHMSoPw2NDwtcFiGXXFUEyC/Osrv8EFRRDffSukAOuOx67vAn39+JQbvWvjHGHxIYQSQhD+JlfbPKqVvf8Ch/gJmjJ1np6E5eps6jjDieMw9ciXNgOb8tIrn4gqUjRCg4QZWXfviafaVF1Bh+e+EVZgonURHE0kiiV1D6Rt8uFJ3h8UlB5EvgWDqJofcE4at7ZlmqZOhceoAB8ssPaK6us7j/cBKAENGVQeh+7f2PvzNhKTIoImHIIoh9EKwOR1rmWc13k5ZDxTs8c/+X5B6JDWBQlR4DejrKhWqIXW3yonC6msp0NZXxdrVBvK+gSu/kLbIbazSKiLjAGSPQL7CtMtJ5UJQTudlwISZJrEXa5Nc4fO/nsKLQ2LGGRPcbhV5iSp6kqM3ZpND6ABGhue49gRTgwJ93k5yl6YJeA3SmqWmk6PU993DZAmBXpfQERQDZaoW21Yc7+c6bKFolil6x4DnYvMyx1r8sW0r7ykICIGLR6ntKiyS7xLoBllDbElRABVWh3d3gnb23MbaSUOj8+4+YvsandX01zlvKz7ILTCvaFRoJP5Yj2QXeap9it+OFWBRqj2u0rDwKi0EktJHS3bqHIHGPsvq0C0yI8EaaormVGl8tPL2NzKAW4PX1pD697RLs3Zc0RaJmyIQLjKlyAXBdx/DesW4y7sF/MfPfUvG2+HZyDg0A8BXGXEWKgl4X4XR9K+DHX3/no1N9NDkmDN9Wyv/pD8sb3PxphiBojUr0mqLFhmZHbqte5yld592Xn+e5/R0Y2U6KKtR8n1Jlk4XSGvOlNYqLJYorVTJtHRjHQVXLwPHRgUIxHjjDN6Y+BC4LgmqAt/aYnPHp3J3FdQw1P6Ba81nzfDbqAYExOG4G09SMk8lgxEFFbTflg9GBwlVI5gHZqlzZbNH9CiMiQratnTowFygEtndnBDKQtbSIbZ8xXaHx8y14V6PcbxuZn43dNdWsDgGXBHKILTtbYlEJNo7LMGotA2db8K5eGDgRRMB3HvrjU4cQPgcGATeNVBBLRezAB64RDv3ZxsraFoEVAwTnbk4ZCegBzgD9hL8teXtmGZgWmFAYU7R4ceBo0GDLAME/G4fuo83AzRYAAAAASUVORK5CYII=") no-repeat left center transparent;
     background-size: 100% 100%;
 }/*end of call to action button*/
+
+/*professional guides*/
+.cards {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;   
+}
+
+.cards section {
+    padding: 1rem;
+    margin: .8rem;
+    background-color: teal;
+    text-align: center;
+}
+
+.cards section img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+main section {
+    margin-left: 25px;
+}
+
+@media only screen and (min-width: 250px) {
+    .cards {
+        grid-template-columns: repeat(1, 200px);
+    }
+}
+@media only screen and (min-width: 400px) {
+    .cards {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(3, 300px);
+    }
+}
+/*end of professional guides*/
+
+
 /*Clearfix: Force an Element not to collapse*/
 .clearfix:after {
     content: "";
@@ -325,12 +380,12 @@ footer a{
     background-color: teal;
     color: white;
 }
-.img1, .img3 {
+.imahe1, .imahe2 {
     width: 250px; 
     padding: 20px;
     float: left; 
 }
-.img2 {
+.imahe3 {
     width: 250px; 
     float: right;
 }

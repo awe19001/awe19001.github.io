@@ -149,12 +149,12 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .img1, .img3 {
+    .imahe1, .imahe2 {
         width: 300px; 
         padding: 20px;
         float: left; 
     }
-    .img2 {
+    .imahe3 {
         width: 300px; 
         float: right;
     }
@@ -190,4 +190,39 @@
         padding: 15px;
     } 
    
- 
+ /*professional guides*/
+.cards {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;   
+}
+
+.cards section {
+    padding: 1rem;
+    margin: .8rem;
+    background-color: teal;
+    text-align: center;
+}
+
+.cards section img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+main section {
+    margin-left: 25px;
+}
+
+@media only screen and (min-width: 400px) {
+    .cards {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(3, 300px);
+    }
+}
+/*end of professional guides*/
+
