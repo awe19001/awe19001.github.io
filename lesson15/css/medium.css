@@ -17,7 +17,7 @@
     header, footer{
         padding:5px 0;;
         text-align: center;
-        background-color:  teal;
+        background-color:  black;
         color:  yellow;
         font-size: 1em;
         display: flex;
@@ -26,23 +26,7 @@
     .headings{
         display: flex;
         flex-direction: column;
-    }
-    header img {
-        width: 70px;
-        height: auto;
-    }
-    
-    .logo{
-         float: left;
-    }
-    .m{
-        letter-spacing: 1pt;
-        font-size: .9rem;
-        margin-left: 20px;
-        font-style: italic;
-        color: yellow;
-    }
-    
+    }  
     .navigation{
         list-style: none;
         text-align: center;
@@ -59,7 +43,6 @@
     .navigation a:hover {
         background-color: yellow;
         color: red;
-        border-radius: 10px;
         font-weight: 700;
     }
     .navigation a {
@@ -117,12 +100,10 @@
     }
     nav ul li.active a {
         background-color: aqua;
-        border-radius: 10px;
     }
     nav ul li a:hover {
         background-color: yellow;
         color: red;
-        border-radius: 10px;
     }
     
     .contentbox {
@@ -160,10 +141,7 @@
         overflow:auto;
         margin: inherit;
     }
-    .getNotice {
-        padding: 15px;
-        font-size: 20px;
-    }
+
     .five{
         display: none;
         margin-bottom: 30px;
@@ -180,7 +158,7 @@
     }
     
     .contactinfo {
-        height: 430px;
+        height: 300px;
     }
     
     .add-table {
@@ -189,7 +167,7 @@
     }
     .articlecontent {
         margin: inherit;
-        border: 1px dashed black;
+        border: 1px  black;
         padding: 15px;
         background-color: #ccc;
         color: black;
