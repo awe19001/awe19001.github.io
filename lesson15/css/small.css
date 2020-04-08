@@ -373,6 +373,12 @@ tr {
     align-items: center;
     justify-content: center;
 }
+#top-row3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
 #bottom-row {
     text-align: center;
     background-color: teal;
