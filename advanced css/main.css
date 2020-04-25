@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
 @media only screen and (min-width: 20em) {
+
 header {
    font-family: 'Lora', serif;
    padding:10px;
