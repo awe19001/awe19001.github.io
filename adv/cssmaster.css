@@ -1,0 +1,16 @@
+.help::before {
+    content: '(';
+}
+.help::after {
+    content: ')';
+}
+
+p:nth-of-type(3) {
+    display:none;
+}
+p:nth-of-type(4) {
+    display:none;
+}   
+p:nth-of-type(5) {
+    display:none;
+} 
