@@ -1,172 +1,181 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-
 @media only screen and (min-width: 20em) {
-  header {
-    font-family: 'Lora', serif;
-    padding: 10px;
-    text-align: right;
-    background-color: #6495ED;
-    color: #FAEBD7;
+//variables
+$backcolor-blue:  #6495ED;
+$color-antwhite: #FAEBD7;
+$activeback-burwood: #DEB887;
+$backcolor-wht:  white;
+$fontfam-arl: Arial, Helvetica, sans-serif;
+$fonth-lor: 'Lora', serif;
+$postdate-fontsi: .98rem;
 
-    h1 a {
-      color: #FAEBD7;
-      text-decoration: none;
-    }
-  }
+//mixins
+@mixin large {
+   @media only screen and (min-width: 60em){
+      @content;
+   }
+}
 
-  nav {
-    background-color: #6495ED;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-
-      li a {
-        display: block;
-        padding: 5px;
-        text-decoration: none;
-        color: #FAEBD7;
+header {
+   background-color: $backcolor-blue;
+   font-family: $fonth-lor;
+   padding:10px;
+   text-align: right;
+   color: $color-antwhite;
+   h1 {
+		a {
+            color: $color-antwhite;
+            text-decoration: none;
+         }
+      @include large {
+      a {   font-size: 48px;
+         }
       }
-    }
+}@include large {
+   
+}
+}
 
-    li a {
-      display: block;
-      padding: 0.75rem;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-
-    ul li {
-      &.active a {
-        background-color: #DEB887;
+nav {
+   background-color: $backcolor-blue;
+   margin: 0 auto;
+   padding-bottom: 20px;   
+   font-family: $fontfam-arl; 
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         li {
+            a {
+               display: block;
+               padding: 5px;
+               text-decoration: none;
+               color: $color-antwhite;
+               &:hover {
+                  color: $backcolor-wht;
+                  text-decoration: underline;
+               }
+            }
+         }
+         li.active {
+            a {
+               background-color: $activeback-burwood;
+            }
+         }
       }
-
-      a:hover {
-        color: white;
-        text-decoration: underline;
+      li {
+         a {
+            display: block;
+            padding: 0.75rem;
+            text-decoration: none;
+            font-size: 0.95rem;
+         }
       }
-    }
-  }
-
-  body {
-    margin: 0px;
-  }
-
-  main {
-    background-color: #FAEBD7;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
-
-  article {
-    background-color: white;
-  }
-
-  .post-date {
-    color: gray;
-    padding: 10px;
-    background-color: white;
-  }
-
-  .post-content {
-    color: black;
-    background-color: white;
-  }
-
-  section p {
-    padding: 5px;
-    background-color: white;
-  }
-
-  h2 {
-    a {
+   }
+body {
+      margin: 0px;
+}
+main {
+   background-color: $color-antwhite;
+   margin: 0px;
+   font-family: $fontfam-arl;
+   padding-top: 25px;
+   padding-left: 15px;
+   padding-right: 10px;
+}
+@include large {
+   main {
+      position: absolute;
+      left: 320px;
+      padding: 60px;
+}
+}
+article {
+   background-color: $backcolor-wht;
+}
+.post-date {
+   color: gray;
+   padding: 10px;
+   background-color: $backcolor-wht;
+}
+@include large {
+   .post-date {
+      padding-top: 50px;
+      padding-left: 40px;
+   }
+}
+.post-content {
+   color: black;
+   background-color: $backcolor-wht;
+}
+@include large {
+   .post-content {
+      padding-left: 40px;
+   }
+}
+section {
+   p {
+      padding: 5px;
+      background-color: $backcolor-wht;
+      }
+}
+h2 {
+   a {
       color: black;
       text-decoration: none;
-      font-family: 'Lora', serif;
+      font-family: $fonth-lor;
       font-size: 1.5em;
       padding-left: 10px;
-    }
-
-    &.active a {
-      color: #DEB887;
-    }
-
-    a:hover {
-      color: #6495ED;
-      text-decoration: underline;
-    }
-  }
-
-  img {
-    width: 211px;
-    justify-items: center;
-    margin: auto;
-    cursor: zoom-in;
-    padding-left: 100px;
-    padding-top: 20px;
-  }
-
-  p {
-    text-align: justify;
-    padding: 30px;
-
+      &:hover {
+         color: $backcolor-blue;
+         text-decoration: underline;
+      }
+   }
+}
+h2.active {
     a {
-      color: #6495ED;
+      color: $activeback-burwood;
+      }
+}
+img {
+   width: 211px;
+   margin: auto;
+   cursor: zoom-in;
+   padding-left: 100px;
+   padding-top: 20px;
+}
+@include large {
+   img {
+      width: 396px;
+      padding-left: 150px;
+      padding-top: 40px;
+   }
+}
+p {
+   text-align: justify;
+   padding: 30px;
+   a {
+      color: $backcolor-blue;
       text-decoration: none;
-    }
-
-    &.active a {
-      color: #DEB887;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  }
+      &:hover {
+         text-decoration: underline;
+      } 
+   }
+}
+p.active {
+   a {
+       color: $activeback-burwood;
+       }
 }
 
 @media only screen and (min-width: 60em) {
-  figure img {
-    width: 396px;
-    justify-items: center;
-    padding-left: 150px;
-    padding-top: 40px;
-  }
-
-  header {
-    position: absolute;
-    left: 0px;
-    width: 300px;
-    height: 1785px;
-    padding: 10px;
-
-    h1 a {
-      color: #FAEBD7;
-      text-decoration: none;
-      font-size: 48px;
-    }
-  }
-
-  main {
-    position: absolute;
-    left: 320px;
-    padding: 60px;
-  }
-
-  .post-date {
-    padding-top: 50px;
-    padding-left: 40px;
-  }
-
-  .post-content {
-    padding-left: 40px;
-  }
+  
+header {
+     position: absolute;
+     left: 0px;
+     width: 300px; 
+     height: 1785px;
+     padding: 10px;
+}
+}
 }
